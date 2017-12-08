@@ -38,6 +38,7 @@ Migrations
     
 Starting Server
 ^^^^^^^^^^^^^^^^^^^^^
+    sudo service postgresql start
     source env/bin/activate
     python manage.py runserver $IP:$PORT
     
