@@ -109,7 +109,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # EMAIL
 # ------------------------------------------------------------------------------
 DEFAULT_FROM_EMAIL = ''
-EMAIL_SUBJECT_PREFIX = '
+EMAIL_SUBJECT_PREFIX = ''
 SERVER_EMAIL = ''
 
 # Anymail with Mailgun
