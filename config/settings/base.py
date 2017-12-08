@@ -271,7 +271,7 @@ LOGIN_URL = 'account_login'
 # SLUGLIFIER
 AUTOSLUG_SLUGIFY_FUNCTION = 'slugify.slugify'
 
-ALLOWED_HOSTS= ['camara-mirim-data-extracter-danieldourado.c9users.io']
+ALLOWED_HOSTS= ['camara-mirim-data-extracter-danieldourado.c9users.io', 'plenarinho-danieldourado.c9users.io']
 
 # Location of root django.contrib.admin URL, use {% url 'admin:index' %}
 ADMIN_URL = r'^admin/'

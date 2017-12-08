@@ -20,6 +20,27 @@ Moved to settings_.
 
 Basic Commands
 --------------
+    
+    
+    source env/bin/activate
+    pip install -r requirements/local.txt
+    sudo service postgresql start
+    
+    psql
+    CREATE DATABASE "camara_mirim_util";
+    \q
+    
+Migrations
+^^^^^^^^^^^^^^^^^^^^^    
+    python manage.py makemigrations
+    python manage.py migrate
+    
+    
+Starting Server
+^^^^^^^^^^^^^^^^^^^^^
+    source env/bin/activate
+    python manage.py runserver $IP:$PORT
+    
 
 Setting Up Your Users
 ^^^^^^^^^^^^^^^^^^^^^
