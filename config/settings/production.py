@@ -63,7 +63,7 @@ X_FRAME_OPTIONS = 'DENY'
 # Hosts/domain names that are valid for this site
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['danieldourado.com', 'plenarinho-danieldourado.c9users.io','https://plenarinho.herokuapp.com'])
 # END SITE CONFIGURATION
