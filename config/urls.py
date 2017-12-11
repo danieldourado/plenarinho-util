@@ -18,6 +18,7 @@ urlpatterns = [
 
     # Your stuff: custom urls includes go here
     url(r'^projetos/', include('projetos.urls', namespace='projetos')),
+    url(r'^jogo_cidadania/', include('jogo_cidadania.urls', namespace='jogo_cidadania')),
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

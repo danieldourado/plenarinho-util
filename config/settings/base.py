@@ -59,6 +59,7 @@ LOCAL_APPS = [
     'camara_mirim_util.users.apps.UsersConfig',
     # Your stuff: custom apps go here
     'projetos',
+    'jogo_cidadania',
     
 ]
 
