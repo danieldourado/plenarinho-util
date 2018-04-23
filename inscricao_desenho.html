@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Concurso de desenho</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<div><h1>Ficha de inscrição</h1></div>
+    <div>Concurso de desenho: </div>
+    <div>A ACLAMAÇÃO DE DOM JOÃO VI, A CONSTRUÇÃO DO ESTADO BRASILEIRO DURANTE SEU REINADO E O MODO COMO INFLUENCIARAM NA INDEPENDÊNCIA DO BRASIL</div>
+    <div>ANEXO N. 1</div>
+<div class="alert alert-danger">* Campos obrigatórios</div>
+
+    <style type="text/css" media="print">
+        @page {
+            size: auto;   /* auto is the initial value */
+            margin: 0;  /* this affects the margin in the printer settings */
+        }
+        
+        @media print {
+          #printPageButton {
+            display: none;
+          }
+          body { font-size: .58em; }
+
+
+
+        }
+    </style>
+    
+    <form action="/action_page.php">
+      <label>Nome do autor*:</label><input class="form-control" >
+      <label>RG do autor*:</label><input class="form-control" >
+      <label>CPF do autor*:</label><input class="form-control" >
+      <label>Nome do responsável*:</label><input class="form-control" >
+      <label>RG do responsável*:</label><input class="form-control" >
+      <label>CPF do responsável*:</label><input class="form-control" >
+      <label>Data de nascimento do autor*:</label><input class="form-control" >
+      <label>Endereço*:</label><input class="form-control" >
+      <label>Cidade*:</label><input class="form-control" >
+      <label>Estado*:</label><input class="form-control" >
+      <label>CEP*:</label><input class="form-control" >
+      <label>Telefone 1*:</label><input class="form-control" >
+      <label>Telefone 2:</label><input class="form-control" >
+      <label>Email*:</label><input class="form-control" >
+      <label>Título do desenho*:</label><input class="form-control" >
+      <label>Técnica do desenho*:</label><input class="form-control" >
+      <label>Nome da escola*:</label><input class="form-control" >
+      <label>Endereço da escola:</label><input class="form-control" >
+      <label>Série*:</label><input class="form-control" >
+      
+
+    </form>
+    
+    <div class="alert alert-info">Instruções
+        <div>Imprimir esta ficha de inscrição, anexá-la ao desenho e à declaração. Os documentos devem ser enviados por correio para o endereço:</div>
+        <div>Plenarinho</div>
+        <div>Câmara dos Deputados</div>
+        <div>Palácio do Congresso Nacional</div>
+        <div>Anexo I, Sala 1609, 16° andar</div>
+        <div>Brasília-DF CEP: 70160-900</div>
+    </div>
+    
+    <button type="submit" onclick="window.print()" class="btn btn-success" id="printPageButton">Imprimir</button>
+
+</div>

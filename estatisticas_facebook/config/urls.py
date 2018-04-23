@@ -13,13 +13,10 @@ urlpatterns = [
     url(settings.ADMIN_URL, admin.site.urls),
 
     # User management
-    url(r'^users/', include('camara_mirim_util.users.urls', namespace='users')),
+    url(r'^users/', include('estatisticas_facebook.users.urls', namespace='users')),
     url(r'^accounts/', include('allauth.urls')),
 
     # Your stuff: custom urls includes go here
-    url(r'^projetos/', include('projetos.urls', namespace='projetos')),
-    url(r'^jogo_cidadania/', include('jogo_cidadania.urls', namespace='jogo_cidadania')),
-    url(r'^trivia/', include('trivia.urls', namespace='trivia')),
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

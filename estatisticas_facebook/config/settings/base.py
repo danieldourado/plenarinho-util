@@ -1,5 +1,5 @@
 """
-Base settings for Camara Mirim Util project.
+Base settings for Estatisticas Facebook project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/dev/topics/settings/
@@ -9,8 +9,8 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 import environ
 
-ROOT_DIR = environ.Path(__file__) - 3  # (camara_mirim_util/config/settings/base.py - 3 = camara_mirim_util/)
-APPS_DIR = ROOT_DIR.path('camara_mirim_util')
+ROOT_DIR = environ.Path(__file__) - 3  # (estatisticas_facebook/config/settings/base.py - 3 = estatisticas_facebook/)
+APPS_DIR = ROOT_DIR.path('estatisticas_facebook')
 
 # Load operating system environment variables and then prepare to use them
 env = environ.Env()
@@ -49,21 +49,13 @@ THIRD_PARTY_APPS = [
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
-    'bootstrap3',
-    'django_csv_exports',
-    'rest_framework',
-
 ]
 
 # Apps specific for this project go here.
 LOCAL_APPS = [
     # custom users app
-    'camara_mirim_util.users.apps.UsersConfig',
+    'estatisticas_facebook.users.apps.UsersConfig',
     # Your stuff: custom apps go here
-    'projetos',
-    'jogo_cidadania',
-    'trivia'
-    
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -84,7 +76,7 @@ MIDDLEWARE = [
 # MIGRATIONS CONFIGURATION
 # ------------------------------------------------------------------------------
 MIGRATION_MODULES = {
-    'sites': 'camara_mirim_util.contrib.sites.migrations'
+    'sites': 'estatisticas_facebook.contrib.sites.migrations'
 }
 
 # DEBUG
@@ -119,7 +111,7 @@ MANAGERS = ADMINS
 # Uses django-environ to accept uri format
 # See: https://django-environ.readthedocs.io/en/latest/#supported-types
 DATABASES = {
-    'default': env.db('DATABASE_URL', default='postgres:///camara_mirim_util'),
+    'default': env.db('DATABASE_URL', default='postgres:///estatisticas_facebook'),
 }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
@@ -133,7 +125,7 @@ DATABASES['default']['ATOMIC_REQUESTS'] = True
 TIME_ZONE = 'UTC'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
-LANGUAGE_CODE = 'pt-BR'
+LANGUAGE_CODE = 'en-us'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#site-id
 SITE_ID = 1
@@ -263,8 +255,8 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 
 ACCOUNT_ALLOW_REGISTRATION = env.bool('DJANGO_ACCOUNT_ALLOW_REGISTRATION', True)
-ACCOUNT_ADAPTER = 'camara_mirim_util.users.adapters.AccountAdapter'
-SOCIALACCOUNT_ADAPTER = 'camara_mirim_util.users.adapters.SocialAccountAdapter'
+ACCOUNT_ADAPTER = 'estatisticas_facebook.users.adapters.AccountAdapter'
+SOCIALACCOUNT_ADAPTER = 'estatisticas_facebook.users.adapters.SocialAccountAdapter'
 
 # Custom user app defaults
 # Select the correct user model
@@ -275,7 +267,6 @@ LOGIN_URL = 'account_login'
 # SLUGLIFIER
 AUTOSLUG_SLUGIFY_FUNCTION = 'slugify.slugify'
 
-ALLOWED_HOSTS= ['camara-mirim-data-extracter-danieldourado.c9users.io', 'plenarinho-danieldourado.c9users.io']
 
 # Location of root django.contrib.admin URL, use {% url 'admin:index' %}
 ADMIN_URL = r'^admin/'
