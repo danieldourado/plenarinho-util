@@ -10,6 +10,11 @@ class ProjetoList(ListView):
     model = Projeto
     paginate_by = 20
 
+class ProjetoListForPDF(ListView):
+    model = Projeto
+    template_name = 'projetos/projeto_list_for_pdf.html'
+    paginate_by = 1000
+
 
 class ProjetoCreate(CreateView):
     model = Projeto
