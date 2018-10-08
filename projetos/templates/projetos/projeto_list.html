@@ -4,6 +4,8 @@
     <h1>Lista</h1>
     <a href="{% url 'projetos:create' %}">Criar</a>
     <a href="{% url 'projetos:extract' %}">Extrair do Portal</a>
+    <a href="{% url 'projetos:list_for_pdf' %}">Listar para PDF</a>
+    
     <ul>
         {% for object in object_list %}
             <li>
