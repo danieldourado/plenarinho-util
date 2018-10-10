@@ -7,7 +7,7 @@
     <ul>
         {% for object in object_list %}
             
-            <br>Projeto de lei #{{ forloop.counter }}<br>
+            <br>Projeto de lei #{{ forloop.counter }} por {{object.nomeDaCrianca}}<br>
             <br>Nome: {{ object.nomeDoProjetoDeLei }}<br>
             <br>Tema: {{ object.tema }}<br>
             <br>Projeto: {{ object.projetoDeLei }}<br>

@@ -6,17 +6,18 @@ from .models import Projeto
 
 def getProjetos():
     #Projeto.objects.all().delete()
-    getLinks()
+    #getLinks()
     extractProjetoDataFromLinks()
 
 def extractProjetoDataFromLinks():
     
     projetos = Projeto.objects.all()
-    
     for projeto in projetos:
         if projeto.name == '':
-            extractProjetoData(projeto)
-           
+            if not extractProjetoData(projeto):
+                print('Projeto deu erro: ', str(projeto.link))
+                return
+            
 def extractProjetoData(projeto):
 
     infoBox = get_projeto(projeto)
@@ -24,7 +25,6 @@ def extractProjetoData(projeto):
         return
     
     #projeto = Projeto.objects.create()
-    
     projeto.name                = infoBox.find('nome').string
     projeto.nomeDaCrianca       = infoBox.find('nome').string
     projeto.sexo                = infoBox.find('sexo').string
@@ -43,9 +43,14 @@ def extractProjetoData(projeto):
     projeto.projetoDeLei        = infoBox.find('projetodelei').string
     projeto.justificativa       = infoBox.find('justificativa').string
     projeto.ano                 = infoBox.find('ano').string
-    projeto.save()
-    print("finished "+projeto.name)
+    try:
+        projeto.save()
+        print("finished "+projeto.name)
+    except Exception as e:
+        print (str(e))
+        return False
     
+    return True
     #projeto.delete()
 
 def get_projeto(projeto, depth=1):
@@ -73,10 +78,10 @@ def getLinks():
         return;
     '''
     list_of_links = []
-    for x in range(60,82):
+    for x in range(1,82):
         urls = getLinkAdressFromPage(url+str(x))
         list_of_links += urls
-        print('added', str(x))
+        print('added all projects from page ', str(x))
     saveLinks(list_of_links)
     
     

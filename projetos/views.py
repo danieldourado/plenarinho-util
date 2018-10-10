@@ -12,6 +12,7 @@ class ProjetoList(ListView):
 
 class ProjetoListForPDF(ListView):
     model = Projeto
+    ordering = ['-tema']
     template_name = 'projetos/projeto_list_for_pdf.html'
     paginate_by = 1000
 
