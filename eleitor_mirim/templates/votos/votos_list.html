@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Lista de votos</h1>
+    <ul>
+        {% for object in votos_list %}
+            <li>
+                {{ object }}
+            </li>
+        {% empty %}
+                <p>Sem items.</p>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
+

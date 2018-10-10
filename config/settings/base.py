@@ -62,7 +62,8 @@ LOCAL_APPS = [
     # Your stuff: custom apps go here
     'projetos',
     'jogo_cidadania',
-    'trivia'
+    'trivia',
+    'eleitor_mirim'
     
 ]
 

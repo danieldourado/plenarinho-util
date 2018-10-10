@@ -1,1 +1,14 @@
 {% extends "base.html" %}
+{% block content %}
+    <script>
+        const Http = new XMLHttpRequest()
+        const url='https://j9zfp6zmth.execute-api.us-east-1.amazonaws.com/test/mydemoresource'
+        Http.open("GET", url)
+        Http.setRequestHeader('Access-Control-Allow-Headers', '*');
+        Http.send()
+        Http.onreadystatechange=(e)=>
+        {
+            console.log(Http.responseText)
+        }
+    </script>
+{% endblock %}
