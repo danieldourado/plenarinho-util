@@ -2,15 +2,13 @@
 
 {% block content %}
     <h1>Lista de votos do Eleitor Mirim 2018</h1>
-    <ul>
-        {% for object in votos_list %}
-            <li>
-                {{ object }}
-            </li>
-        {% empty %}
-                <p>Sem items.</p>
-        {% endfor %}
-    </ul>
+    {% for object in votos_list %}
+            <p>{{ object.0 }} ({{object.1}} votos {% widthratio object.1 votos_total 100 %}%)</p>
+    {% empty %}
+            <p>Sem items.</p>
+    {% endfor %}
+    <hr>
+    <p>Total: {{votos_total}}</p>
 
 {% endblock %}
 

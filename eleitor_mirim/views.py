@@ -19,7 +19,10 @@ class ContagemVotos(TemplateView):
                 numeros[current_numero] = 0
             numeros[current_numero] += 1
         sorted_by_value = sorted(numeros.items(), key=lambda kv: kv[1], reverse=True)
-        print(str(sorted_by_value))
-
-        context = {"votos_list":sorted_by_value}
+        print(str(sorted_by_value[0][0]))
+        
+        total = 0
+        for voto in sorted_by_value:
+            total += voto[1]
+        context = {"votos_list":sorted_by_value, 'votos_total':total}
         return context
