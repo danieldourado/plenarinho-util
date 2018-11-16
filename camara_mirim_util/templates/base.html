@@ -38,7 +38,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" target="_blank" href=" /admin/ ">Administração<span class="sr-only">(current)</span></a>
+              <a class="nav-link" target="_blank" href=" {% url 'apuracao_votos_eleitor_mirim' %} ">Administração<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href=" /apuracao_votos_eleitor_mirim/ ">Apuração de votos EM2018<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>

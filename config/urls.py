@@ -8,6 +8,7 @@ from eleitor_mirim.views import ContagemVotos
 
 urlpatterns = [
     url(r'^$', ContagemVotos.as_view(), name='home'),
+    url(r'^apuracao_votos_eleitor_mirim/$', ContagemVotos.as_view(), name='apuracao_votos_eleitor_mirim'),
     url(r'^about/$', TemplateView.as_view(template_name='pages/about.html'), name='about'),
 
     # Django Admin, use {% url 'admin:index' %}
