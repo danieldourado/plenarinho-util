@@ -5,9 +5,10 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 from django.views import defaults as default_views
 from eleitor_mirim.views import ContagemVotos
+from projetos.views import ProjetoList
 
 urlpatterns = [
-    url(r'^$', ContagemVotos.as_view(), name='home'),
+    url(r'^$', ProjetoList.as_view(), name='home'),
     url(r'^apuracao_votos_eleitor_mirim/$', ContagemVotos.as_view(), name='apuracao_votos_eleitor_mirim'),
     url(r'^about/$', TemplateView.as_view(template_name='pages/about.html'), name='about'),
 
