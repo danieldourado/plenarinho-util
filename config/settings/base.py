@@ -63,7 +63,8 @@ LOCAL_APPS = [
     'projetos',
     'jogo_cidadania',
     'trivia',
-    'eleitor_mirim'
+    'eleitor_mirim',
+    'wiki_game',
     
 ]
 

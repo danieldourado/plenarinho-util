@@ -21,6 +21,8 @@ urlpatterns = [
     url(r'^projetos/', include('projetos.urls', namespace='projetos')),
     url(r'^jogo_cidadania/', include('jogo_cidadania.urls', namespace='jogo_cidadania')),
     url(r'^trivia/', include('trivia.urls', namespace='trivia')),
+    url(r'^wiki_game/', include('wiki_game.urls', namespace='wiki_game')),
+
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
