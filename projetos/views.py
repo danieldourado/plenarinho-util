@@ -4,6 +4,7 @@ from django.views.generic import ListView, CreateView, DetailView, UpdateView, D
 from .forms import ProjetoForm
 from .models import Projeto
 from projetos.plenarinho_crawler import *
+import csv
 
 
 class ProjetoList(ListView):
@@ -41,3 +42,18 @@ def ProjetoCrawl(request):
     getProjetos()
     return HttpResponseRedirect(reverse_lazy('projetos:list'))
 
+def ProjetoExtractEnderecoParticipantes(request):
+    from django.utils.encoding import smart_str
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename=Endereço dos autores de projetos de lei.csv'
+    writer = csv.writer(response, csv.excel)
+    response.write(u'\ufeff'.encode('utf8'))
+
+    writer.writerow([smart_str(u'Nome'), smart_str(u'Endereço'), smart_str(u'Cidade'), smart_str(u'Estado'), smart_str(u'CEP')])
+    
+    projetos = Projeto.objects.all()
+    
+    for projeto in projetos:
+        writer.writerow([smart_str(projeto.nomeDaCrianca), smart_str(projeto.endereco), smart_str(projeto.cidade), smart_str(projeto.uf), smart_str(projeto.cep)])
+
+    return response

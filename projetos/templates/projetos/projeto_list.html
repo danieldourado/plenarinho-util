@@ -5,6 +5,8 @@
     <a href="{% url 'projetos:create' %}">Criar</a>
     <a href="{% url 'projetos:extract' %}">Extrair do Portal</a>
     <a href="{% url 'projetos:list_for_pdf' %}">Listar para PDF</a>
+    <a href="{% url 'projetos:extract_endereco_participantes' %}">Extrair Endereços de participantes</a>
+    
     
     <ul>
         {% for object in object_list %}
