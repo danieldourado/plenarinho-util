@@ -3,8 +3,18 @@ from django.views.generic import ListView, CreateView, DetailView, UpdateView, D
 from .forms import WikiGameForm
 from .models import WikiGame
 
+import csv
 
 class WikiGameList(ListView):
+    WikiGame.objects.all().delete()
+    with open('wiki-game-data.csv', newline='') as csvfile:
+        spamreader = csv.DictReader(csvfile)
+        for row in spamreader:
+            tempWiki = WikiGame()
+            tempWiki.name = row['Termo']
+            tempWiki.texto = row['Texto']
+            tempWiki.save()
+    
     model = WikiGame
     paginate_by = 20
 
