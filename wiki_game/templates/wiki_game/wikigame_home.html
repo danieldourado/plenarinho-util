@@ -2,8 +2,7 @@
 
 {% block content %}
     <h1>Lista</h1>
-    <a href="{% url 'wiki_game:extract_data_from_csv' %}">Extrair dados de CSV</a>
-    
+    <a href="{% url 'wiki_game:create' %}">Criar</a>
     <ul>
         {% for object in object_list %}
             <li>

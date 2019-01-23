@@ -7,6 +7,7 @@ termo_RI = "]"
 
 def refresh_wikigame_model():
     WikiGame.objects.all().delete()
+    WikiTermos.objects.all().delete()
     dataset = extract_data_from_csv()
     save_termos(dataset)
     save_wikigame(dataset)

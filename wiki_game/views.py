@@ -1,20 +1,27 @@
 from django.core.urlresolvers import reverse_lazy
-from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
+from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView, TemplateView
 from .forms import WikiGameForm
 from .models import WikiGame
-
+from .csv_data_extracter import refresh_wikigame_model
 import csv
+from django.shortcuts import redirect
+
+def extract_data_from_csv(request):
+    refresh_wikigame_model()
+    return redirect('/wiki_game/list/')
+    
+class HomeGameView(TemplateView):
+
+    template_name = "wikigame_home.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['latest_articles'] = Article.objects.all()[:5]
+        return context
+
+    
 
 class WikiGameList(ListView):
-    WikiGame.objects.all().delete()
-    with open('wiki-game-data.csv', newline='') as csvfile:
-        spamreader = csv.DictReader(csvfile)
-        for row in spamreader:
-            tempWiki = WikiGame()
-            tempWiki.name = row['Termo']
-            tempWiki.texto = row['Texto']
-            tempWiki.save()
-    
     model = WikiGame
     paginate_by = 20
 
