@@ -6,7 +6,7 @@
 
     <form id="wikigame_form" method="post" action=".">
     {% csrf_token %}
-    <input type="submit" value="Sim" class="btn btn-primary" /> <a href="{% url 'wiki_game:list' %}" class="btn btn-danger">Não</a>
+    <input type="submit" value="Sim" class="btn btn-primary" /> <a href="{% url 'wikigame:list' %}" class="btn btn-danger">Não</a>
     </form>
 {% endblock %}
 

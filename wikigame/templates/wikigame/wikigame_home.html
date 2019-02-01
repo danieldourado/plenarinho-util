@@ -1,15 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
+<script>
+    let a = "{{latest_articles}}";
+    console.log(a)
+</script>
     <h1>Lista</h1>
-    <a href="{% url 'wiki_game:create' %}">Criar</a>
     <ul>
         {% for object in object_list %}
             <li>
                 {{ object }}
                 <a href="{{ object.get_absolute_url }}">Detalhes</a>
-                <a href="{% url 'wiki_game:update' object.pk %}">Atualizar</a>
-                <a href="{% url 'wiki_game:delete' object.pk %}">Apagar</a>
+                <a href="{% url 'wikigame:update' object.pk %}">Atualizar</a>
+                <a href="{% url 'wikigame:delete' object.pk %}">Apagar</a>
             </li>
         {% empty %}
                 <p>Sem items.</p>
@@ -20,13 +23,13 @@
         <div class="pagination">
             <span class="page-links">
                 {% if page_obj.has_previous %}
-                    <a href="{% url 'wiki_game:list' %}?page={{ page_obj.previous_page_number }}">anterior</a>
+                    <a href="{% url 'wikigame:list' %}?page={{ page_obj.previous_page_number }}">anterior</a>
                 {% endif %}
                 <span class="page-current">
                     Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
                 </span>
                 {% if page_obj.has_next %}
-                    <a href="{% url 'wiki_game:list' %}?page={{ page_obj.next_page_number }}">próximo</a>
+                    <a href="{% url 'wikigame:list' %}?page={{ page_obj.next_page_number }}">próximo</a>
                 {% endif %}
             </span>
         </div>

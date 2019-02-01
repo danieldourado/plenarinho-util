@@ -17,7 +17,7 @@ class WikiGameTest(WebTest):
         Test that the list view returns at least our factory created instance.
         """
         instance = mommy.make(WikiGame)
-        response = self.app.get(reverse('wiki_game:list'))
+        response = self.app.get(reverse('wikigame:list'))
         object_list = response.context['object_list']
         self.assertIn(instance, object_list)
 
@@ -25,7 +25,7 @@ class WikiGameTest(WebTest):
         """
         Test that we can create an instance via the create view.
         """
-        response = self.app.get(reverse('wiki_game:create'))
+        response = self.app.get(reverse('wikigame:create'))
         new_name = 'A freshly created thing'
 
         # check that we don't already have a model with this name
@@ -51,7 +51,7 @@ class WikiGameTest(WebTest):
         Test that we can update an instance via the update view.
         """
         instance = mommy.make(WikiGame)
-        response = self.app.get(reverse('wiki_game:update', kwargs={'pk': instance.pk, }))
+        response = self.app.get(reverse('wikigame:update', kwargs={'pk': instance.pk, }))
 
         form = response.forms['wikigame_form']
         new_name = 'Some new thing'
@@ -67,8 +67,6 @@ class WikiGameTest(WebTest):
         """
         instance = mommy.make(WikiGame)
         pk = instance.pk
-        response = self.app.get(reverse('wiki_game:delete', kwargs={'pk': pk, }))
+        response = self.app.get(reverse('wikigame:delete', kwargs={'pk': pk, }))
         response = response.form.submit().follow()
         self.assertFalse(WikiGame.objects.filter(pk=pk).exists())
-
-    

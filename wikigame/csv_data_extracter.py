@@ -24,6 +24,7 @@ def save_wikigame(dataset):
 
 def extract_termos_from_string(dataset):
     termos_list = []
+    alias_in_text = ""
     strings_termos = dataset.split(termo_splitter)
     for string_termo in strings_termos:
         if string_termo == '': 
@@ -32,10 +33,15 @@ def extract_termos_from_string(dataset):
             termo = string_termo
         else:
             termo = string_termo[string_termo.find(termo_LI)+1:string_termo.find(termo_RI)]
+            alias_in_text = string_termo.partition("[")[0]
         
         termo = termo.rstrip().lstrip()
         print('looking for termo', termo)
         temp_termo = WikiTermos.objects.get(name__iexact=termo)
+        if alias_in_text:
+            temp_termo.alias_in_text = alias_in_text
+            temp_termo.save()
+        
         termos_list.append(temp_termo)
     return termos_list
 

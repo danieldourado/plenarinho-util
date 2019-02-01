@@ -4,6 +4,7 @@ from django.db import models
 
 class WikiTermos(models.Model):
     name = models.CharField(max_length=255)
+    alias_in_text = models.CharField(max_length=255, null=True)
     
     def __str__(self):
         return self.name
@@ -17,4 +18,4 @@ class WikiGame(models.Model):
         return self.name.name
 
     def get_absolute_url(self):
-        return reverse('wiki_game:detail', args=[str(self.id)])
+        return reverse('wikigame:detail', args=[str(self.id)])
