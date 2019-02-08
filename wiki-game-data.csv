@@ -1,17 +1,17 @@
-,,,Número,Termo,In,Out,Texto
+,,,Número,Termo,In,Out,Texto,Imagem
 ,,,1,Assembléia Legislativa,"* Deputado Estadual
 * Poder Legislativo
 * Constituição Estadual","* Poder Legislativo
 * Estados [Unidade Federativa]
 * Cidadãos [Cidadão]
 * Deputados Estaduais [Deputado Estadual]
-* Constituição Estadual",A Assembléia Legislativa é o órgão do Poder Legislativo nos Estados. Ela representa os cidadãos que moram no Estado. É composta por deputados estaduais e é responsável pela Constituição Estadual.
+* Constituição Estadual",A Assembléia Legislativa é o órgão do Poder Legislativo nos Estados. Ela representa os cidadãos que moram no Estado. É composta por deputados estaduais e é responsável pela Constituição Estadual.,imagem_0001
 ,,,2,Câmara dos Deputados,"* Congresso Nacional
 * Deputado Federal
 * Sistema Bicameral","* Congresso Nacional
 * Deputados Federais [Deputado Federal]
 * Estado [Unidade Federativa]
-* Cidadãos [Cidadão]",Faz parte do Congresso Nacional e é composta Deputados Federais - representantes do povo. O número de deputados por cada Estado é proporcional ao número de cidadãos que residem no Estado.
+* Cidadãos [Cidadão]",Faz parte do Congresso Nacional e é composta Deputados Federais - representantes do povo. O número de deputados por cada Estado é proporcional ao número de cidadãos que residem no Estado.,imagem_0002
 ,,,3,Câmara Municipal,"* Poder Legislativo
 * Lei Orgânica [Município]
 * Município
@@ -19,7 +19,7 @@
 * Municípios [Município]
 * Cidadãos [Cidadão]
 * Vereadores [Vereador]
-* Lei Orgânica","A Câmara Municipal é o órgão do Poder Legislativo nos municípios. Ela representa os cidadãos que moram no município. Cada município elege um número de vereadores proporcional ao total da população, sendo, no mínimo, 9 e, no máximo, 55. A Câmara Municipal também é chamada de Câmara de Vereadores e é reponsável pela Lei Orgânica do município."
+* Lei Orgânica","A Câmara Municipal é o órgão do Poder Legislativo nos municípios. Ela representa os cidadãos que moram no município. Cada município elege um número de vereadores proporcional ao total da população, sendo, no mínimo, 9 e, no máximo, 55. A Câmara Municipal também é chamada de Câmara de Vereadores e é reponsável pela Lei Orgânica do município.",imagem_0003
 ,,,4,Candidato,"* Democracia
 * Eleições
 * Justiça Eleitoral
@@ -32,7 +32,7 @@
 * Partido Político [Partidos políticos]
 * Eleição [Eleições]","Pessoa que disputa um cargo e que precisa de votos para se eleger. O cargo pode ser para o Poder Legislativo ou para o Poder Executivo.
 
-Para poder investir candidatura a pessoa precisa ter nacionalidade brasileira ou ser naturalizado; estar em pleno exercício dos direitos políticos; estar alistado na Justiça Eleitoral; ter domicílio eleitoral na circunscrição há pelo menos um ano antes do pleito e ser filiado a um partido político também há pelo menos um ano antes da eleição."
+Para poder investir candidatura a pessoa precisa ter nacionalidade brasileira ou ser naturalizado; estar em pleno exercício dos direitos políticos; estar alistado na Justiça Eleitoral; ter domicílio eleitoral na circunscrição há pelo menos um ano antes do pleito e ser filiado a um partido político também há pelo menos um ano antes da eleição.",imagem_0004
 ,,,5,Cidadão,"* Assembléia Legislativa
 * Câmara dos Deputados
 * Constituição
@@ -45,7 +45,7 @@ Para poder investir candidatura a pessoa precisa ter nacionalidade brasileira ou
 * Constituição Federal
 * Voto","Pessoa que tem direitos civis e políticos garantidos pelo Estado. E que tem também deveres a cumprir.
 
-Os direitos políticos são regulados no Brasil pela Constituição Federal em seu artigo 14, que estabelece como princípio da participação na vida política nacional o sufrágio universal. Nos tempos da norma constitucional, o alistamento eleitoral e o voto são obrigatórios para os maiores de dezoito anos, e facultativos para os analfabetos, os maiores de dezesseis e menores de dezoito anos e os maiores de setenta anos."
+Os direitos políticos são regulados no Brasil pela Constituição Federal em seu artigo 14, que estabelece como princípio da participação na vida política nacional o sufrágio universal. Nos tempos da norma constitucional, o alistamento eleitoral e o voto são obrigatórios para os maiores de dezoito anos, e facultativos para os analfabetos, os maiores de dezesseis e menores de dezoito anos e os maiores de setenta anos.",imagem_0005
 ,,,6,Congresso Nacional,"* Câmara dos Deputados
 * Poder Legislativo
 * Senado Federal
@@ -55,7 +55,7 @@ Os direitos políticos são regulados no Brasil pela Constituição Federal em s
 * Senado Federal
 * Sistema Bicameral","Órgão que representa o Poder Legislativo da União. É formado pela Câmara dos Deputados e pelo Senado Federal. 
 
-O Congresso Nacional usa o Sistema Bicameral e por isso possui duas casas legislativas."
+O Congresso Nacional usa o Sistema Bicameral e por isso possui duas casas legislativas.",imagem_0006
 ,,,7,Constituição Federal,"* Cidadão
 * Estado
 * Leis
@@ -65,20 +65,20 @@ O Congresso Nacional usa o Sistema Bicameral e por isso possui duas casas legisl
 * Supremo Tribunal Federal
 * Justiça Estadual","* Lei [Leis]
 * Estado
-* Cidadãos [Cidadão]","Constituição, também chamada de Carta Constitucional, é a lei fundamental e suprema de um Estado, onde contém as normas relativas à formação dos poderes públicos, forma de governo, distribuição das competências, direitos e deveres dos cidadãos etc."
+* Cidadãos [Cidadão]","Constituição, também chamada de Carta Constitucional, é a lei fundamental e suprema de um Estado, onde contém as normas relativas à formação dos poderes públicos, forma de governo, distribuição das competências, direitos e deveres dos cidadãos etc.",imagem_0007
 ,,,8,Constituição Estadual,"* Leis
 * Lei Orgânica [Município]
 * Assembléia Legislativa","* Lei [Leis]
 * Estados [Unidade Federativa]
 * Constituição Federal
 * Assembléia Legislativa
-* Governador","É a Lei Maior que rege um determinado estado-membro de um país. Nos estados do Brasil], seu poder é autônomo e atua segundo delimitação imposta pela Constituição Federal. O conteúdo da Constituição Estadual é elaborado pela Assembléia Legislativa e aprovado pelo Governador do estado respectivo."
+* Governador","É a Lei Maior que rege um determinado estado-membro de um país. Nos estados do Brasil, seu poder é autônomo e atua segundo delimitação imposta pela Constituição Federal. O conteúdo da Constituição Estadual é elaborado pela Assembléia Legislativa e aprovado pelo Governador do estado respectivo.",imagem_0008
 ,,,9,Democracia,"* Eleições
 * Partidos Políticos","* Votar [Voto]
 * Candidato
-* Eleições","Regime político que se caracteriza pela liberdade de votar no candidato que se tem vontade durante as eleições, pela divisão dos poderes e pelo controle e limite da autoridade."
-,,,10,Deputado Estadual,* Assembléia Legislativa,* Assembléia Legislativa,Parlamentar que faz parte da Assembléia Legislativa. É um representante do povo eleito para mandato de quatro anos.
-,,,11,Deputado Federal,* Câmara dos Deputados,* Câmara dos Deputados,Membro da Câmara dos Deputados e representante do povo. Tem mandato de quatro anos.
+* Eleições","Regime político que se caracteriza pela liberdade de votar no candidato que se tem vontade durante as eleições, pela divisão dos poderes e pelo controle e limite da autoridade.",imagem_0009
+,,,10,Deputado Estadual,* Assembléia Legislativa,* Assembléia Legislativa,Parlamentar que faz parte da Assembléia Legislativa. É um representante do povo eleito para mandato de quatro anos.,imagem_0010
+,,,11,Deputado Federal,* Câmara dos Deputados,* Câmara dos Deputados,Membro da Câmara dos Deputados e representante do povo. Tem mandato de quatro anos.,imagem_0011
 ,,,12,Eleições,"* Candidato
 * Democracia
 * Justiça Eleitoral
@@ -89,14 +89,14 @@ O Congresso Nacional usa o Sistema Bicameral e por isso possui duas casas legisl
 * Candidatos [Candidato]
 * Democracia","Escolha feita por meio de votação. As eleições podem ser diretas, quando os cidadãos escolhem pessoalmente entre os candidatos; ou indiretas, quando representantes do povo votam em seu lugar.
 
-Processo fundamental da democracia."
+Processo fundamental da democracia.",imagem_0012
 ,,,13,Estado,"* Cidadão
 * Constituição
 * Leis","* Leis
 * Constituição [Constituição Federal]
 * Governo [Governo Federal]","Nação organizada pela política e pelas leis, que ocupa um determinado território e é dirigida por um governo próprio.
 
-Estado não se confunde com governo. O Estado é organizado política, social e juridicamente, ocupando um território definido onde, normalmente, a lei máxima é uma constituição escrita. É dirigido por um governo que possui soberania reconhecida tanto interna como externamente."
+Estado não se confunde com governo. O Estado é organizado política, social e juridicamente, ocupando um território definido onde, normalmente, a lei máxima é uma constituição escrita. É dirigido por um governo que possui soberania reconhecida tanto interna como externamente.",imagem_0013
 ,,,14,Unidade Federativa,"* Assembléia Legislativa
 * Câmara dos Deputados
 * Leis
@@ -115,33 +115,33 @@ Estado não se confunde com governo. O Estado é organizado política, social e 
 
 Em uma Federação, o território nacional se divide em Unidades da Federação que possuem alguma liberdade e independência e se ligam à União
 
-Cada estado possui o seu próprio governo, chamado de governo estadual."
+Cada estado possui o seu próprio governo, chamado de governo estadual.",imagem_0038
 ,,,15,Governador,"* Constituição Estadual
 * Governo Estadual
 * Vice-Governador","* Governo Estadual
-* Vice-Governador","O governador é a autoridade máxima do governo estadual. O governador é eleito para um mandato de quatro anos, junto com um Vice-Governador."
+* Vice-Governador","O governador é a autoridade máxima do governo estadual. O governador é eleito para um mandato de quatro anos, junto com um Vice-Governador.",imagem_0014
 ,,,16,Governo Estadual,"* Estado [Unidade Federativa]
 * Governador
 * Poder Executivo","* Poder Executivo
 * Estado da Federação [Unidade Federativa]
-* Governador","O Governo de Estado é a sede do Poder Executivo de um Estado da Federação, comandado por um governador e dividido em secretarias de governo, como cultura ou saúde, por exemplo."
+* Governador","O Governo de Estado é a sede do Poder Executivo de um Estado da Federação, comandado por um governador e dividido em secretarias de governo, como cultura ou saúde, por exemplo.",imagem_0015
 ,,,17,Governo Federal,"* Governo Federal
 * Poder Executivo
 * Presidente da República
 * Título de Eleitor
 * União","* Poder Executivo
 * União
-* Presidente da República",O Governo Federal é o Poder Executivo no âmbito da União. No Brasil é sediado em Brasília (DF) e é o responsável pelos interesses da administração federal em todo território nacional. Tem como mandatário o Presidente da República.
+* Presidente da República",O Governo Federal é o Poder Executivo no âmbito da União. No Brasil é sediado em Brasília (DF) e é o responsável pelos interesses da administração federal em todo território nacional. Tem como mandatário o Presidente da República.,imagem_0016
 ,,,18,Justiça do Trabalho,"* Poder Judiciario
 * Justiça Estadual","* Poder Judiciário
-* União","A Justiça do Trabalho faz parte, como ramo especializado, do Poder Judiciário da União. É competente para julgar ações decorrentes da relação do trabalho e as de emprego regidas pela Consolidação das Leis Trabalhistas (CLT). Atua também em casos que envolvem representação sindical, atos decorrentes de greve e pedido de indenização por dano moral ou patrimonial resultantes da relação de trabalho, entre outros."
+* União","A Justiça do Trabalho faz parte, como ramo especializado, do Poder Judiciário da União. É competente para julgar ações decorrentes da relação do trabalho e as de emprego regidas pela Consolidação das Leis Trabalhistas (CLT). Atua também em casos que envolvem representação sindical, atos decorrentes de greve e pedido de indenização por dano moral ou patrimonial resultantes da relação de trabalho, entre outros.",imagem_0017
 ,,,19,Justiça Eleitoral,"* Candidato
 * Poder Judiciário
 * Título de Eleitor
 * Justiça Estadual","* Poder Judiciário
 * Eleições
 * Candidatos [Candidato]
-* Título de Eleitor",Parte do Poder Judiciário que regula e julga os atos praticados durante as eleições dos candidatos aos cargos públicos. É responsável pela emissão do Título de Eleitor.
+* Título de Eleitor",Parte do Poder Judiciário que regula e julga os atos praticados durante as eleições dos candidatos aos cargos públicos. É responsável pela emissão do Título de Eleitor.,imagem_0018
 ,,,20,Justiça Estadual,* Poder Judiciário,"* Justiça Federal
 * Judiciário [Poder Judiciário]
 * do Trabalho [Justiça do Trabalho]
@@ -150,12 +150,12 @@ Cada estado possui o seu próprio governo, chamado de governo estadual."
 * Constituição [Constituição Federal]
 * Estado [Unidade Federativa]","A Justiça Estadual, integrante da Justiça comum (junto com a Justiça Federal), é responsável por julgar matérias que não sejam da competência dos demais segmentos do Judiciário – Federal, do Trabalho, Eleitoral e Militar. 
 
-De acordo com a Constituição, cada estado tem a atribuição de organizar a sua Justiça Estadual. Hoje, ela está presente em todas as unidades da Federação, reunindo a maior parte dos casos que chega ao Judiciário, já que se encarrega das questões mais comuns e variadas, tanto na área civil quanto na criminal."
+De acordo com a Constituição, cada estado tem a atribuição de organizar a sua Justiça Estadual. Hoje, ela está presente em todas as unidades da Federação, reunindo a maior parte dos casos que chega ao Judiciário, já que se encarrega das questões mais comuns e variadas, tanto na área civil quanto na criminal.",imagem_0019
 ,,,21,Justiça Federal,"* Poder Judiciário
 * Justiça Estadual","* Poder Judiciário
-* União","Integrante do Poder Judiciário, a Justiça Federal brasileira tem por competência o julgamento de ações nas quais a União Federal, suas autarquias, fundações e empresas públicas federais figurem na condição de autoras ou rés e outras questões de interesse da Federação"
+* União","Integrante do Poder Judiciário, a Justiça Federal brasileira tem por competência o julgamento de ações nas quais a União Federal, suas autarquias, fundações e empresas públicas federais figurem na condição de autoras ou rés e outras questões de interesse da Federação",imagem_0020
 ,,,22,Justiça Militar,"* Poder Judiciario
-* Justiça Estadual",* Poder Judiciário,"A Justiça Militar é um ramo especializado do Poder Judiciário responsável pela aplicação da lei a uma categoria especial, a dos militares - Marinha, Exército, Aeronáutica, Polícias Militares e Corpos de Bombeiros Militares - julgando apenas e tão somente os crimes militares definidos em lei."
+* Justiça Estadual",* Poder Judiciário,"A Justiça Militar é um ramo especializado do Poder Judiciário responsável pela aplicação da lei a uma categoria especial, a dos militares - Marinha, Exército, Aeronáutica, Polícias Militares e Corpos de Bombeiros Militares - julgando apenas e tão somente os crimes militares definidos em lei.",imagem_0021
 ,,,23,Lei Orgânica,"* Leis
 * Câmara Municipal","* Município
 * Lei [Leis]
@@ -165,7 +165,7 @@ De acordo com a Constituição, cada estado tem a atribuição de organizar a su
 
 Deve sempre respeitar os princípios da Constituição Federal e da Constituição Estadual.
 
-Apesar de não ser um município, o Distrito Federal também possui uma Lei Orgânica."
+Apesar de não ser um município, o Distrito Federal também possui uma Lei Orgânica.",imagem_0022
 ,,,24,Leis,"* Constituição
 * Estado
 * Poder Executivo
@@ -182,7 +182,7 @@ Apesar de não ser um município, o Distrito Federal também possui uma Lei Org�
 
 No Brasil, cada um dos Três Poderes é responsável por criar, executar ou aplicar as leis.
 
-As principais leis de um país formam a sua Constituição. As principais leis de um estado formam a sua Constituição Estadual e as principais leis de um município formam a sua Lei Orgânica."
+As principais leis de um país formam a sua Constituição. As principais leis de um estado formam a sua Constituição Estadual e as principais leis de um município formam a sua Lei Orgânica.",imagem_0023
 ,,,25,Município,"* Leis
 * Poder Executivo
 * Poder Legislativo
@@ -196,12 +196,12 @@ As principais leis de um país formam a sua Constituição. As principais leis d
 * Câmara Municipal
 * Vereador","* Estado [Unidade Federativa]
 * Prefeitura
-* Câmara Municipal","O município é a divisão administrativa de um estado, distrito ou região, com autonomia administrativa, e que se constitui de certos órgãos políticos e administrativos. No caso do Brasil, o município é composto pela Prefeitura e pela Câmara Municipal."
+* Câmara Municipal","O município é a divisão administrativa de um estado, distrito ou região, com autonomia administrativa, e que se constitui de certos órgãos políticos e administrativos. No caso do Brasil, o município é composto pela Prefeitura e pela Câmara Municipal.",imagem_0024
 ,,,26,Partidos Políticos,* Candidato,"* Cidadãos [Cidadão]
 * Democracias [Democracia]
 * Candidatos [Candidato]","Grupo de cidadãos com idéias parecidas e com os mesmos objetivos políticos. Os partidos políticos são muito importantes para as democracias do mundo atual.
 
-No Brasil, todos os candidatos devem estar filiados a um partido político."
+No Brasil, todos os candidatos devem estar filiados a um partido político.",imagem_0025
 ,,,27,Poder Executivo,"* Candidato
 * Governo Federal
 * Poder Legislativo
@@ -219,7 +219,7 @@ No Brasil, todos os candidatos devem estar filiados a um partido político."
 * Três Poderes [Separação dos Poderes]","Um dos Três Poderes. É o poder responsável por executar as leis. 
 
 No âmbito da União, o Poder Executivo é representado pelo Governo Federal. O Governo Estadual e a Prefeitura representam o Executivo nos estados e nos municípios, respectivamente.
-"
+",imagem_0026
 ,,,28,Poder Judiciário,"* Justiça Eleitoral
 * Separação dos Poderes
 * Supremo Tribunal Federal
@@ -232,8 +232,8 @@ No âmbito da União, o Poder Executivo é representado pelo Governo Federal. O 
 * Militar [Justiça Militar]
 * Eleitoral [Justiça Eleitoral]
 * do Trabalho [Justiça do Trabalho]
-* Supremo Tribunal Federal
-* Três Poderes [Separação dos Poderes]","Um dos Três Poderes. É responsável por aplicar as leis que garantem os direitos individuais. Fazem parte do Poder Judiciário: os Tribunais de Justiça (Federal, Estadual, Militar, Eleitoral, do Trabalho) e os Tribunais Superiores que têm como órgão máximo o Supremo Tribunal Federal."
+* STF [Supremo Tribunal Federal]
+* Três Poderes [Separação dos Poderes]","Um dos Três Poderes. É responsável por aplicar as leis que garantem os direitos individuais. Fazem parte do Poder Judiciário: os Tribunais de Justiça (Federal, Estadual, Militar, Eleitoral, do Trabalho) e os Tribunais Superiores que têm como órgão máximo o (STF) Supremo Tribunal Federal.",imagem_0027
 ,,,29,Poder Legislativo,"* Assembléia Legislativa
 * Candidato
 * Congresso Nacional
@@ -250,27 +250,27 @@ No âmbito da União, o Poder Executivo é representado pelo Governo Federal. O 
 * Câmaras Municipais [Câmara Municipal]
 * Três Poderes [Separação dos Poderes]","Um dos Três Poderes. É o poder que elabora as leis e que fiscaliza os atos do Poder Executivo. 
 
-O Poder Legislativo é representado na União pelo Congresso Nacional, nos estados pelas Assembléias Legislativas e nos municípios pelas Câmaras Municipais."
+O Poder Legislativo é representado na União pelo Congresso Nacional, nos estados pelas Assembléias Legislativas e nos municípios pelas Câmaras Municipais.",imagem_0028
 ,,,30,Prefeito,"* Prefeitura
 * Vice-Prefeito","* Poder Executivo
 * Municipal [Município]
 * Prefeitura
-* Vice-Prefeito","O prefeito é um funcionário público do Poder Executivo municipal. Seu dever é ""administrar"" o município e chefiar a Prefeitura. É eleito para um mandato de quatro anos junto com um Vice-Prefeito."
+* Vice-Prefeito","O prefeito é um funcionário público do Poder Executivo municipal. Seu dever é ""administrar"" o município e chefiar a Prefeitura. É eleito para um mandato de quatro anos junto com um Vice-Prefeito.",
 ,,,31,Prefeitura,"* Poder Executivo
 * Município
 * Prefeito","* Poder Executivo
 * Município
-* Prefeito","No Brasil, a prefeitura é a sede do Poder Executivo do município, comandada por um prefeito e dividida em secretarias de governo, como saúde ou educação, por exemplo."
+* Prefeito","No Brasil, a prefeitura é a sede do Poder Executivo do município, comandada por um prefeito e dividida em secretarias de governo, como saúde ou educação, por exemplo.",imagem_0029
 ,,,32,Presidente da República,"* Governo Federal
 * Vice-Presidente","* Governo Federal
-* Vice-Presidente","O presidente é a autoridade máxima do governo federal. O governador é eleito para um mandato de quatro anos, junto com um Vice-Presidente."
+* Vice-Presidente","O presidente é a autoridade máxima do governo federal. O governador é eleito para um mandato de quatro anos, junto com um Vice-Presidente.",imagem_0030
 ,,,33,Senado Federal,"* Congresso Nacional
 * Senador
 * Sistema Bicameral","* Congresso Nacional
 * Senadores [Senador]
-* Estados [Unidade Federativa]",Órgão do Congresso Nacional composto pelos senadores. O Senado representa os Estados e o Distrito Federal.
+* Estados [Unidade Federativa]",Órgão do Congresso Nacional composto pelos senadores. O Senado representa os Estados e o Distrito Federal.,imagem_0031
 ,,,34,Senador,* Senado Federal,"* Estados [Unidade Federativa]
-* Senado Federal",Cada um dos representantes dos Estados ou do Distrito Federal eleitos para o Senado Federal. Cada estado e o Distrito Federal elegem três senadores com mandato de oito anos.
+* Senado Federal",Cada um dos representantes dos Estados ou do Distrito Federal eleitos para o Senado Federal. Cada estado e o Distrito Federal elegem três senadores com mandato de oito anos.,imagem_0032
 ,,,35,Separação dos Poderes,"* Leis
 * Poder Executivo
 * Poder Judiciário
@@ -282,13 +282,13 @@ O Poder Legislativo é representado na União pelo Congresso Nacional, nos estad
 * Estado [Unidade Federativa]
 * Município","Trata-se dos poderes Legislativo, Executivo e Judiciário que norteiam as ações políticas do nosso país.
 
-Foi o filósofo francês Montesquieu quem tratou pela primeira vez da divisão dos três poderes: Executivo, encarregado de executar as leis e administrar o funcionamento da União, do estado ou do município, Legislativo, encarregado de fazer as leis e fiscalizar as ações do Executivo e Judiciário, encarregado de fazer com que as leis elaboradas pelo Legislativo sejam cumpridas, resolvendo os conflitos e garantindo os direitos individuais, coletivos e sociais."
+Foi o filósofo francês Montesquieu quem tratou pela primeira vez da divisão dos três poderes: Executivo, encarregado de executar as leis e administrar o funcionamento da União, do estado ou do município, Legislativo, encarregado de fazer as leis e fiscalizar as ações do Executivo e Judiciário, encarregado de fazer com que as leis elaboradas pelo Legislativo sejam cumpridas, resolvendo os conflitos e garantindo os direitos individuais, coletivos e sociais.",imagem_0033
 ,,,36,Sistema Bicameral,* Congresso Nacional,"* Poder Legislativo
 * Congresso Nacional
 * Câmara dos Deputados
-* Senado Federal","Sistema constitucional em que o Poder Legislativo é composto por duas câmaras ou casas legislativas. É o que acontece no caso do Congresso Nacional, que é integrado pela Câmara dos Deputados e pelo Senado Federal."
+* Senado Federal","Sistema constitucional em que o Poder Legislativo é composto por duas câmaras ou casas legislativas. É o que acontece no caso do Congresso Nacional, que é integrado pela Câmara dos Deputados e pelo Senado Federal.",imagem_0034
 ,,,37,Supremo Tribunal Federal,* Poder Judiciário,"* Poder Judiciário
-* Constituição Federal","O Supremo Tribunal Federal, ou STF, é a Suprema Corte brasileira, quer dizer, ele representa o topo da hierarquia do Poder Judiciário. Sua principal função é ser guardião da Constituição Federal."
+* Constituição Federal","O Supremo Tribunal Federal, ou STF, é a Suprema Corte brasileira, quer dizer, ele representa o topo da hierarquia do Poder Judiciário. Sua principal função é ser guardião da Constituição Federal.",imagem_0035
 ,,,38,Título de Eleitor,"* Justiça Eleitoral
 * Voto","* Cidadão
 * Justiça Eleitoral
@@ -297,7 +297,7 @@ Foi o filósofo francês Montesquieu quem tratou pela primeira vez da divisão d
 * Eleições
 * Estaduais [Unidade Federativa]
 * Federais [Governo Federal] 
-* Municipais [Município]","É o documento que comprova que um determinado cidadão está cadastrado na Justiça Eleitoral. O título de eleitor, se estiver regularizado, permite a pessoa votar num candidato e se candidatar a um cargo, em eleições municipais, estaduais e federais."
+* Municipais [Município]","É o documento que comprova que um determinado cidadão está cadastrado na Justiça Eleitoral. O título de eleitor, se estiver regularizado, permite a pessoa votar num candidato e se candidatar a um cargo, em eleições municipais, estaduais e federais.",imagem_0036
 ,,,39,União,"* Congresso Nacional
 * Estado [Unidade Federativa]
 * Governo Federal
@@ -309,19 +309,19 @@ Foi o filósofo francês Montesquieu quem tratou pela primeira vez da divisão d
 * Constituição Federal
 * União
 * Estados [Unidade Federativa]
-* Municípios [Município]","União é a pessoa jurídica de Direito Público representante do Governo Federal no âmbito interno e da República Federativa do Brasil no âmbito externo. É definida no artigo 18 da Constituição Federal: ""Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição."""
+* Municípios [Município]","União é a pessoa jurídica de Direito Público representante do Governo Federal no âmbito interno e da República Federativa do Brasil no âmbito externo. É definida no artigo 18 da Constituição Federal: ""Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição.""",imagem_0037
 ,,,40,Urna,* Voto,"* Cidadão
 * Voto
-* Eleição [Eleições]","Local onde o cidadão registra seu voto em uma eleição. Pode ser manual (uma caixa onde o papelzinho com o voto é colocado) ou eletrônica. No Brasil, a urna eletrônica é utilizada há vinte anos."
+* Eleição [Eleições]","Local onde o cidadão registra seu voto em uma eleição. Pode ser manual (uma caixa onde o papelzinho com o voto é colocado) ou eletrônica. No Brasil, a urna eletrônica é utilizada há vinte anos.",imagem_0039
 ,,,41,Vereador,* Câmara Municipal,"* Câmara Municipal
 * Poder Legislativo
-* Municipal [Município]","Representante do povo que faz parte da Câmara Municipal, órgão do Poder Legislativo municipal. O vereador é eleito para um mandato de quatro anos."
-,,,42,Vice-Governador,* Governador,* Governador,"O Vice-Governador é a pessoa encarregada de substituir o governador caso este renuncie a sua posição, seja afastado do poder ou precise afastar-se do cargo temporariamente."
+* Municipal [Município]","Representante do povo que faz parte da Câmara Municipal, órgão do Poder Legislativo municipal. O vereador é eleito para um mandato de quatro anos.",imagem_0040
+,,,42,Vice-Governador,* Governador,* Governador,"O Vice-Governador é a pessoa encarregada de substituir o governador caso este renuncie a sua posição, seja afastado do poder ou precise afastar-se do cargo temporariamente.",imagem_0041
 ,,,43,Vice-Prefeito,* Prefeito,"* Poder Executivo
 * Municipal [Município]
 * Prefeito
-* Voto","Vice-Prefeito é o segundo em exercício no cargo do Poder Executivo municipal. No Brasil, esse representante é eleito através de voto direto, de quatro em quatro anos, juntamente com o prefeito, de modo vinculado. O Vice-Prefeito é o substituto do prefeito em caso de ausência por licença ou outro impedimento. "
-,,,44,Vice-Presidente,* Presidente da República,* Presidente [Presidente da República],"O Vice-Presidente tem a função de substituir o Presidente no caso de viagem ao exterior ou impedimentos e sucedê-lo em caso de renúncia, morte ou destituição do cargo por processo de impeachment. Ele deve também dar conselhos ao Presidente, caso seja requisitado."
+* Voto","Vice-Prefeito é o segundo em exercício no cargo do Poder Executivo municipal. No Brasil, esse representante é eleito através de voto direto, de quatro em quatro anos, juntamente com o prefeito, de modo vinculado. O Vice-Prefeito é o substituto do prefeito em caso de ausência por licença ou outro impedimento. ",imagem_0042
+,,,44,Vice-Presidente,* Presidente da República,* Presidente [Presidente da República],"O Vice-Presidente tem a função de substituir o Presidente no caso de viagem ao exterior ou impedimentos e sucedê-lo em caso de renúncia, morte ou destituição do cargo por processo de impeachment. Ele deve também dar conselhos ao Presidente, caso seja requisitado.",imagem_0043
 ,,,45,Voto,"* Candidato
 * Cidadão
 * Democracia
@@ -334,4 +334,4 @@ Foi o filósofo francês Montesquieu quem tratou pela primeira vez da divisão d
 * Cidadão
 * Título de Eleitor","Manifestação oficial que declara a preferência de um eleitor em um candidato durante uma eleição. No Brasil, os votos de uma eleição são registrados em urnas eletrônicas.
 
-No Brasil, o cidadão precisa ser maior de 16 anos e ter seu Título de Eleitor regularizado para poder votar"
+No Brasil, o cidadão precisa ser maior de 16 anos e ter seu Título de Eleitor regularizado para poder votar",imagem_0044

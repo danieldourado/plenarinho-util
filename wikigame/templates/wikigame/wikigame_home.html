@@ -32,6 +32,7 @@ hr {
     <h1 id='titulo'>Titulo</h1>
     <hr></hr>
     <p id='texto'>Texto</p>
+    <img id="articleImage" src=''/>
 </div>
 <script type="text/javascript">
     let data = {{latest_articles|safe}}
@@ -53,7 +54,7 @@ hr {
         document.getElementById('titulo').innerHTML  = article['name']
         document.getElementById('texto').innerHTML  = insertLinks(article['texto'],article['out_links']) 
         document.getElementById('tentativas').innerHTML  = "Tentativas: "+tentativas
-        
+        document.getElementById('articleImage').src="/media/"+article['imagem']+".jpg"
     }
     
     const checkIfArrivedToTargetArticle  = articleIndex => {

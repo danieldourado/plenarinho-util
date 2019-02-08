@@ -17,6 +17,7 @@ def save_wikigame(dataset):
         tempWikiGame = WikiGame()
         tempWikiGame.name = data['termo']
         tempWikiGame.texto = data['texto']
+        tempWikiGame.imagem = data['imagem']
         termos = extract_termos_from_string(data['out_links'])
         tempWikiGame.save()
         tempWikiGame.out_links_set.add(*termos)
@@ -59,6 +60,7 @@ def extract_data_from_csv():
             tempWiki = {}
             tempWiki['termo'] = row['Termo']
             tempWiki['texto'] = row['Texto']
+            tempWiki['imagem'] = row['Imagem']
             tempWiki['out_links'] = row['Out']
             data.append(tempWiki)
     return data

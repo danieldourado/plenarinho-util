@@ -11,6 +11,7 @@ class WikiTermos(models.Model):
 
 class WikiGame(models.Model):
     name = models.CharField(max_length=255)
+    imagem = models.CharField(max_length=255,default='')
     texto = models.TextField(default='')
     out_links_set = models.ManyToManyField(WikiTermos, related_name="out_links", verbose_name="Out Links")
     

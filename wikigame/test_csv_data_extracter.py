@@ -6,10 +6,10 @@ class CSVDETestCase(TestCase):
     mockup = {}
     def setUp(self):
         self.mockup = [
-            {"termo":"cidadão","texto":"texto1 estados candidatos","out_links":"*estados[estado]*Poder Legislativo *candidatos[candidato]"},
-            {"termo":"estado","texto":"texto1 cidadãos","out_links":"*cidadãos[cidadão]"},
-            {"termo":"candidato","texto":"texto1 cidadãos","out_links":"*Poder Legislativo"},
-            {"termo":"Poder Legislativo","texto":"texto1 cidadãos","out_links":"*cidadãos[cidadão]"}]
+            {"termo":"cidadão","texto":"texto1 estados candidatos","out_links":"*estados[estado]*Poder Legislativo *candidatos[candidato]","imagem":"imagem_0001"},
+            {"termo":"estado","texto":"texto1 cidadãos","out_links":"*cidadãos[cidadão]","imagem":"imagem_0002"},
+            {"termo":"candidato","texto":"texto1 cidadãos","out_links":"*Poder Legislativo","imagem":"imagem_0003"},
+            {"termo":"Poder Legislativo","texto":"texto1 cidadãos","out_links":"*cidadãos[cidadão]","imagem":"imagem_0004"}]
         
     def test_extract_data_from_csv(self):
         data = extract_data_from_csv()

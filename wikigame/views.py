@@ -25,6 +25,7 @@ class HomeGameView(TemplateView):
         for value in values:
             temp_obj = {
                 "name":value.name,
+                "imagem":value.imagem,
                 "texto":value.texto.replace('"','')
             }
             temp_out_links = []
