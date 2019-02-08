@@ -1,40 +1,131 @@
 {% extends "base.html" %}
 
 {% block content %}
-<script>
-    let a = "{{latest_articles}}";
-    console.log(a)
+
+<style>
+h1{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    line-height: 1.3;
+    margin-bottom: 0.25em;
+    padding: 0;
+}
+p{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+hr {
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+</style>
+
+<div>
+    <h4 id="tentativas">Tentativas: 0</h4>
+    <h4 id="targetArticle">Artigo de destino: </h4>
+    <br/>
+    <h1 id='titulo'>Titulo</h1>
+    <hr></hr>
+    <p id='texto'>Texto</p>
+</div>
+<script type="text/javascript">
+    let data = {{latest_articles|safe}}
+    let tentativas = -1
+    let targetArticleIndex = -1
+    
+    const getArticleIndex = name => {
+        for (let i = 0; i< data.length; i++)
+        {
+            if (data[i].name === name.name)
+            {
+                return i
+            }
+        }
+    }
+
+    const showArticle = (article) => {
+        tentativas = tentativas +1
+        document.getElementById('titulo').innerHTML  = article['name']
+        document.getElementById('texto').innerHTML  = insertLinks(article['texto'],article['out_links']) 
+        document.getElementById('tentativas').innerHTML  = "Tentativas: "+tentativas
+        
+    }
+    
+    const checkIfArrivedToTargetArticle  = articleIndex => {
+        if (articleIndex == this.targetArticleIndex){
+            alert("Jogo terminado com "+tentativas+" tentativas.");
+            setTimeout(()=>{location.reload()}, 2000)
+        }
+    }
+    
+    const goToArticle = articleIndex => {
+        showArticle(data[articleIndex])
+        checkIfArrivedToTargetArticle(articleIndex)
+    }
+    
+    const insertLinks = (texto, out_links) => {
+        let newTexto = texto
+        out_links.forEach(link => {
+            let articleIndex = getArticleIndex(link)
+            let onclickfunction = "onclick=goToArticle("+articleIndex+");"; 
+            
+            var regEx = new RegExp(link.alias_in_text, "ig");
+            var replaceMask = "<a href='#'"+onclickfunction+" >"+link.alias_in_text+"</a>";
+            
+            newTexto = newTexto.replace(regEx, replaceMask)
+        })
+        return newTexto
+    }
+    
+    const setTargetArticleIndex = targetArticleIndex =>{
+        this.targetArticleIndex = targetArticleIndex
+        document.getElementById('targetArticle').innerHTML = "Artigo de destino: "+data[targetArticleIndex].name
+    }
+    
+    const getTargetArticleDistance = (firstArticleIndex, targetArticleIndex, depth = 0, recursive=false) => {
+        let firstArticleOutLinks = data[firstArticleIndex].out_links
+        let targetArticle = data[targetArticleIndex]
+        
+        for(let i = 0; i < firstArticleOutLinks.length; i++)
+        {
+            if(targetArticle.name == firstArticleOutLinks[i].name){
+                return depth
+            }
+        }
+        
+        return depth+1;
+        
+        if (recursive) return false
+        
+        for(let j = 0; j < firstArticleOutLinks.length; j++)
+        {
+            let newFirstArticleIndex = getArticleIndex(firstArticleOutLinks[j].name)
+            let articleDistance = getTargetArticleDistance(firstArticleIndex, targetArticleIndex, depth++, true)
+            if (articleDistance) return depth
+        }
+        return depth + 1
+    }
+    
+    const getTargetArticle = firstArticleIndex => {
+        let targetArticleIndex = firstArticleIndex+1
+        if(targetArticleIndex > data.length) targetArticleIndex = 0
+        while(getTargetArticleDistance(firstArticleIndex, targetArticleIndex) < 1)
+        {
+            targetArticleIndex++
+            if(targetArticleIndex > data.length) targetArticleIndex = 0
+        }
+        setTargetArticleIndex(targetArticleIndex)
+    }
+    
+    
+    const firstArticleIndex = Math.floor(Math.random() * (data.length-1));
+    getTargetArticle(firstArticleIndex)
+    showArticle(data[firstArticleIndex])
 </script>
-    <h1>Lista</h1>
-    <ul>
-        {% for object in object_list %}
-            <li>
-                {{ object }}
-                <a href="{{ object.get_absolute_url }}">Detalhes</a>
-                <a href="{% url 'wikigame:update' object.pk %}">Atualizar</a>
-                <a href="{% url 'wikigame:delete' object.pk %}">Apagar</a>
-            </li>
-        {% empty %}
-                <p>Sem items.</p>
-        {% endfor %}
-    </ul>
-
-    {% if is_paginated %}
-        <div class="pagination">
-            <span class="page-links">
-                {% if page_obj.has_previous %}
-                    <a href="{% url 'wikigame:list' %}?page={{ page_obj.previous_page_number }}">anterior</a>
-                {% endif %}
-                <span class="page-current">
-                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
-                </span>
-                {% if page_obj.has_next %}
-                    <a href="{% url 'wikigame:list' %}?page={{ page_obj.next_page_number }}">próximo</a>
-                {% endif %}
-            </span>
-        </div>
-    {% endif %}
-
-
 {% endblock %}
 

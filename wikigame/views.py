@@ -5,6 +5,8 @@ from .models import WikiGame
 from .csv_data_extracter import refresh_wikigame_model
 import csv
 from django.shortcuts import redirect
+from django.core.serializers import serialize
+import json
 
 def extract_data_from_csv(request):
     refresh_wikigame_model()
@@ -16,7 +18,23 @@ class HomeGameView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['latest_articles'] = WikiGame.objects.all()
+        values =  WikiGame.objects.all()
+        
+        obj_list = []
+        
+        for value in values:
+            temp_obj = {
+                "name":value.name,
+                "texto":value.texto.replace('"','')
+            }
+            temp_out_links = []
+            for item in value.out_links_set.all():
+                temp_out_links.append({"name":item.name, "alias_in_text":item.alias_in_text})
+            temp_obj['out_links'] = temp_out_links
+            obj_list.append(temp_obj)
+
+        context['latest_articles'] = json.dumps(obj_list)
+        
         return context
 
     

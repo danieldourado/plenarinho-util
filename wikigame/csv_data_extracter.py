@@ -15,7 +15,7 @@ def refresh_wikigame_model():
 def save_wikigame(dataset):
     for data in dataset:
         tempWikiGame = WikiGame()
-        tempWikiGame.name = WikiTermos.objects.get(name=data['termo'])
+        tempWikiGame.name = data['termo']
         tempWikiGame.texto = data['texto']
         termos = extract_termos_from_string(data['out_links'])
         tempWikiGame.save()
@@ -24,9 +24,10 @@ def save_wikigame(dataset):
 
 def extract_termos_from_string(dataset):
     termos_list = []
-    alias_in_text = ""
     strings_termos = dataset.split(termo_splitter)
     for string_termo in strings_termos:
+        alias_in_text = ""
+        termo = ""
         if string_termo == '': 
             continue
         if termo_LI not in string_termo:
@@ -36,13 +37,18 @@ def extract_termos_from_string(dataset):
             alias_in_text = string_termo.partition("[")[0]
         
         termo = termo.rstrip().lstrip()
-        print('looking for termo', termo)
-        temp_termo = WikiTermos.objects.get(name__iexact=termo)
         if alias_in_text:
-            temp_termo.alias_in_text = alias_in_text
-            temp_termo.save()
+            alias_in_text = alias_in_text.rstrip().lstrip()
+        else:
+            alias_in_text = termo
+            
+        tempWikiTermos = WikiTermos()
+        tempWikiTermos.name = termo
+        tempWikiTermos.alias_in_text = alias_in_text
+        tempWikiTermos.save()
+    
         
-        termos_list.append(temp_termo)
+        termos_list.append(tempWikiTermos)
     return termos_list
 
 def extract_data_from_csv():
