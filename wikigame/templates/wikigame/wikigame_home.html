@@ -23,21 +23,55 @@ hr {
     border: 0;
     border-top: 1px solid rgba(0,0,0,0.3);
 }
+.img-fluid {
+    max-width: 90%;
+}
+.wrapper{
+    display:grid;
+}
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-template-columns: 50% 50%;
+  }
+}
+.wrapper > img {
+    
+}
 </style>
 
-<div>
-    <h4 id="tentativas">Tentativas: 0</h4>
-    <h4 id="targetArticle">Artigo de destino: </h4>
-    <br/>
-    <h1 id='titulo'>Titulo</h1>
-    <hr></hr>
-    <p id='texto'>Texto</p>
-    <img id="articleImage" src=''/>
+<div class="row">
+    <div class="col-sm-2">
+        <img src="/media/160x160.jpg" class="img-fluid rounded mx-auto d-block"/>
+    </div>
+    <div class="col-sm-10">
+        
+        <h1>
+            <span id='titulo'>Titulo</span>
+            <span id="point-right">👉</span>
+            <span id="targetArticle">Artigo de destino: </span>
+        </h1>
+        <hr></hr>
+        <div class="wrapper">
+            <p id='texto'>Texto</p>
+            <img id="articleImage" class='img-fluid'  src=''/>
+        </div>
+    </div>
 </div>
+<div id='preload' style='display: none'></div>
 <script type="text/javascript">
     let data = {{latest_articles|safe}}
     let tentativas = -1
     let targetArticleIndex = -1
+    
+    const preLoadImages = num_of_images => {
+        for (let i = 1; i<= num_of_images; i++)
+        {
+            let imgName = ''
+            if( i < 9) imgName = 'imagem_000'+i
+            else imgName = 'imagem_00'+i
+            document.getElementById('preload').innerHTML += "<img src='/media/"+imgName+".jpg'/>"
+        }
+    }
     
     const getArticleIndex = name => {
         for (let i = 0; i< data.length; i++)
@@ -53,14 +87,13 @@ hr {
         tentativas = tentativas +1
         document.getElementById('titulo').innerHTML  = article['name']
         document.getElementById('texto').innerHTML  = insertLinks(article['texto'],article['out_links']) 
-        document.getElementById('tentativas').innerHTML  = "Tentativas: "+tentativas
         document.getElementById('articleImage').src="/media/"+article['imagem']+".jpg"
     }
     
     const checkIfArrivedToTargetArticle  = articleIndex => {
         if (articleIndex == this.targetArticleIndex){
             alert("Jogo terminado com "+tentativas+" tentativas.");
-            setTimeout(()=>{location.reload()}, 2000)
+            setTimeout(()=>{location.reload()}, 1000)
         }
     }
     
@@ -85,7 +118,7 @@ hr {
     
     const setTargetArticleIndex = targetArticleIndex =>{
         this.targetArticleIndex = targetArticleIndex
-        document.getElementById('targetArticle').innerHTML = "Artigo de destino: "+data[targetArticleIndex].name
+        document.getElementById('targetArticle').innerHTML = data[targetArticleIndex].name
     }
     
     const getTargetArticleDistance = (firstArticleIndex, targetArticleIndex, depth = 0, recursive=false) => {
@@ -127,6 +160,7 @@ hr {
     const firstArticleIndex = Math.floor(Math.random() * (data.length-1));
     getTargetArticle(firstArticleIndex)
     showArticle(data[firstArticleIndex])
+    preLoadImages(43)
 </script>
 {% endblock %}
 

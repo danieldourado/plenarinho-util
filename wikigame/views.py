@@ -37,8 +37,10 @@ class HomeGameView(TemplateView):
         context['latest_articles'] = json.dumps(obj_list)
         
         return context
-
     
+class InstructionsGameView(TemplateView):
+
+    template_name = "wikigame/wikigame_instructions.html"
 
 class WikiGameList(ListView):
     model = WikiGame

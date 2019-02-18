@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<style>
+#help-modal {
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.color-link {
+    padding: 7px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #efefef;
+    color: #000000;
+    display: inline-block;
+    border-radius: 6px;
+}
+</style>
+
+
+<div id="help-modal">
+    <img src="/media/160x160.jpg" class="img-fluid rounded mx-auto d-block"/>
+    <p>
+    Este jogo usa conteúdos do Plenarinho para que você encontre a relação lógica entre determinados assuntos. Desta vez, o tema proposto é Três Poderes, e o seu desafio é encontrar o caminho mais rápido entre os dois termos que são apresentados no início da página.
+    <br><br>
+        <span id="start-help">Candidato</span> 👉 <span id="goal-help">Cidadão
+    <br><br>
+    Para cumprir o objetivo do jogo, você terá que clicar nos links disponíveis em cada texto. Mas para ser rápido, você precisará pensar na ligação entre os conceitos de cada termo. Só assim chegará ao final com um mínimo de cliques. 
+    <br><br>
+    <img src="/media/Tutorial - Ligue Ideias.gif" class='img-fluid'  />
+    <br>
+    <br>
+    </p>
+    <a href="{% url 'wikigame:index' %}">
+        <div id="close-help" class="color-link" style="background-color: rgb(239, 239, 239);">
+          Preparado? 👍
+          </div>
+    </a>
+</div> 
+{% endblock %}
+

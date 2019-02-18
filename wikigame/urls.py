@@ -3,6 +3,7 @@ from . import views
 
 
 urlpatterns = [
+    url(r'^instructions/$', views.InstructionsGameView.as_view(), name='instructions'),
     url(r'^$', views.HomeGameView.as_view(), name='index'),
     url(r'^list/$', views.WikiGameList.as_view(), name='list'),
     url(r'^extract_data_from_csv/$', views.extract_data_from_csv, name='extract_data_from_csv'),
