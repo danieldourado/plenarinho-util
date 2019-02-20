@@ -146,6 +146,7 @@ hr {
     }
     
     const getTargetArticle = firstArticleIndex => {
+        console.log(data)
         let targetArticleIndex = firstArticleIndex+1
         if(targetArticleIndex > data.length) targetArticleIndex = 0
         while(getTargetArticleDistance(firstArticleIndex, targetArticleIndex) < 1)

@@ -5,6 +5,7 @@ from .models import WikiGame
 from .csv_data_extracter import refresh_wikigame_model
 import csv
 from django.shortcuts import redirect
+from django.http import HttpResponse
 from django.core.serializers import serialize
 import json
 
@@ -12,29 +13,35 @@ def extract_data_from_csv(request):
     refresh_wikigame_model()
     return redirect('/wikigame/list/')
     
+def get_json_data(request):
+    data = get_serialized_articles_data(WikiGame.objects.all())
+    return HttpResponse(data, content_type='application/json')
+
+def get_serialized_articles_data(values):
+    obj_list = []
+        
+    for value in values:
+        temp_obj = {
+            "name":value.name,
+            "imagem":value.imagem,
+            "texto":value.texto.replace('"','')
+        }
+        temp_out_links = []
+        for item in value.out_links_set.all():
+            temp_out_links.append({"name":item.name, "alias_in_text":item.alias_in_text})
+        temp_obj['out_links'] = temp_out_links
+        obj_list.append(temp_obj)
+
+    return json.dumps(obj_list)
+
 class HomeGameView(TemplateView):
 
     template_name = "wikigame/wikigame_home.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        values =  WikiGame.objects.all()
-        
-        obj_list = []
-        
-        for value in values:
-            temp_obj = {
-                "name":value.name,
-                "imagem":value.imagem,
-                "texto":value.texto.replace('"','')
-            }
-            temp_out_links = []
-            for item in value.out_links_set.all():
-                temp_out_links.append({"name":item.name, "alias_in_text":item.alias_in_text})
-            temp_obj['out_links'] = temp_out_links
-            obj_list.append(temp_obj)
 
-        context['latest_articles'] = json.dumps(obj_list)
+        context['latest_articles'] = get_serialized_articles_data(WikiGame.objects.all())
         
         return context
     
