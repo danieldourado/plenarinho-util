@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.core.urlresolvers import reverse_lazy
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
@@ -15,7 +16,7 @@ class ProjetoListForPDF(ListView):
     model = Projeto
     ordering = ['-tema']
     template_name = 'projetos/projeto_list_for_pdf.html'
-    paginate_by = 1000
+    paginate_by = 167
 
 
 class ProjetoCreate(CreateView):
@@ -51,7 +52,10 @@ def ProjetoExtractEnderecoParticipantes(request):
 
     writer.writerow([smart_str(u'Nome'), smart_str(u'Endereço'), smart_str(u'Cidade'), smart_str(u'Estado'), smart_str(u'CEP')])
     
-    projetos = Projeto.objects.all()
+    #projetos = Projeto.objects.all()
+    projetos = Projeto.objects.order_by('nomeDaCrianca').distinct('nomeDaCrianca')
+
+    
     
     for projeto in projetos:
         writer.writerow([smart_str(projeto.nomeDaCrianca), smart_str(projeto.endereco), smart_str(projeto.cidade), smart_str(projeto.uf), smart_str(projeto.cep)])

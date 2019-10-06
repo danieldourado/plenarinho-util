@@ -70,7 +70,7 @@ def get_projeto(projeto, depth=1):
 def getLinks():
     
     #url = 'https://plenarinho.leg.br/index.php/listar-todos-os-projetos-de-lei-publicados/?vpage='
-    url = 'https://plenarinho.leg.br/index.php/category/camara-mirim/projetos-2018-camara-mirim/page/'
+    url = 'https://plenarinho.leg.br/index.php/category/camara-mirim/projetos-2019-camara-mirim/page/'
     '''
     result = Projeto.objects.filter(link__contains='/')
     
@@ -78,10 +78,10 @@ def getLinks():
         return;
     '''
     list_of_links = []
-    for x in range(1,82):
+    for x in range(1,71):
         urls = getLinkAdressFromPage(url+str(x))
         list_of_links += urls
-        print('added all projects from page ', str(x))
+        print('added all projects from page ', url+str(x))
     saveLinks(list_of_links)
     
     
