@@ -30,7 +30,7 @@ django-webtest==1.9.2
 future==0.16.0
 idna==2.6
 jinja2-time==0.2.0
-lxml==4.1.1
+lxml==4.6.2
 model-mommy==1.4.0
 numpy==1.13.3
 oauthlib==2.0.6
