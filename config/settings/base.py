@@ -277,7 +277,7 @@ LOGIN_URL = 'account_login'
 # SLUGLIFIER
 AUTOSLUG_SLUGIFY_FUNCTION = 'slugify.slugify'
 
-ALLOWED_HOSTS= ['4351c3186f7242e58cb32fbe67490ca1.vfs.cloud9.us-east-1.amazonaws.com']
+ALLOWED_HOSTS= ['4351c3186f7242e58cb32fbe67490ca1.vfs.cloud9.us-east-1.amazonaws.com', 'ec2-34-201-109-149.compute-1.amazonaws.com']
 
 # Location of root django.contrib.admin URL, use {% url 'admin:index' %}
 ADMIN_URL = r'^admin/'

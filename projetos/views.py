@@ -61,3 +61,20 @@ def ProjetoExtractEnderecoParticipantes(request):
         writer.writerow([smart_str(projeto.nomeDaCrianca), smart_str(projeto.endereco), smart_str(projeto.cidade), smart_str(projeto.uf), smart_str(projeto.cep)])
 
     return response
+    
+def ProjetoExtractEmail(request):
+    from django.utils.encoding import smart_str
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename=Endereço de email dos autores de projetos de lei.csv'
+    writer = csv.writer(response, csv.excel)
+    response.write(u'\ufeff'.encode('utf8'))
+
+    writer.writerow([smart_str(u'Nome'), smart_str(u'Email')])
+    
+    #projetos = Projeto.objects.all()
+    projetos = Projeto.objects.order_by('nomeDaCrianca').distinct('nomeDaCrianca')
+    
+    for projeto in projetos:
+        writer.writerow([smart_str(projeto.nomeDaCrianca), smart_str(projeto.email)])
+
+    return response
