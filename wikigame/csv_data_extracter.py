@@ -15,7 +15,7 @@ def refresh_wikigame_model():
 def save_wikigame(dataset):
     for data in dataset:
         tempWikiGame = WikiGame()
-        tempWikiGame.name = data['termo']
+        tempWikiGame.name = "".join(data['termo'].rstrip().lstrip())
         tempWikiGame.texto = data['texto']
         tempWikiGame.imagem = data['imagem']
         termos = extract_termos_from_string(data['out_links'])

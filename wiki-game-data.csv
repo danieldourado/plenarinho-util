@@ -1,337 +1,234 @@
-,,,Número,Termo,In,Out,Texto,Imagem
-,,,1,Assembléia Legislativa,"* Deputado Estadual
-* Poder Legislativo
-* Constituição Estadual","* Poder Legislativo
-* Estados [Unidade Federativa]
-* Cidadãos [Cidadão]
-* Deputados Estaduais [Deputado Estadual]
-* Constituição Estadual",A Assembléia Legislativa é o órgão do Poder Legislativo nos Estados. Ela representa os cidadãos que moram no Estado. É composta por deputados estaduais e é responsável pela Constituição Estadual.,imagem_0001
-,,,2,Câmara dos Deputados,"* Congresso Nacional
-* Deputado Federal
-* Sistema Bicameral","* Congresso Nacional
-* Deputados Federais [Deputado Federal]
-* Estado [Unidade Federativa]
-* Cidadãos [Cidadão]",Faz parte do Congresso Nacional e é composta Deputados Federais - representantes do povo. O número de deputados por cada Estado é proporcional ao número de cidadãos que residem no Estado.,imagem_0002
-,,,3,Câmara Municipal,"* Poder Legislativo
-* Lei Orgânica [Município]
-* Município
-* Vereador","* Poder Legislativo
-* Municípios [Município]
-* Cidadãos [Cidadão]
-* Vereadores [Vereador]
-* Lei Orgânica","A Câmara Municipal é o órgão do Poder Legislativo nos municípios. Ela representa os cidadãos que moram no município. Cada município elege um número de vereadores proporcional ao total da população, sendo, no mínimo, 9 e, no máximo, 55. A Câmara Municipal também é chamada de Câmara de Vereadores e é reponsável pela Lei Orgânica do município.",imagem_0003
-,,,4,Candidato,"* Democracia
-* Eleições
-* Justiça Eleitoral
-* Partidos Políticos
-* Título de Eleitor
-* Voto","* Votos [Voto]
-* Poder Legislativo
-* Poder Executivo
-* Justiça Eleitoral
-* Partido Político [Partidos políticos]
-* Eleição [Eleições]","Pessoa que disputa um cargo e que precisa de votos para se eleger. O cargo pode ser para o Poder Legislativo ou para o Poder Executivo.
-
-Para poder investir candidatura a pessoa precisa ter nacionalidade brasileira ou ser naturalizado; estar em pleno exercício dos direitos políticos; estar alistado na Justiça Eleitoral; ter domicílio eleitoral na circunscrição há pelo menos um ano antes do pleito e ser filiado a um partido político também há pelo menos um ano antes da eleição.",imagem_0004
-,,,5,Cidadão,"* Assembléia Legislativa
-* Câmara dos Deputados
-* Constituição
-* Eleições
-* Partidos Políticos
-* Título de Eleitor
-* Urna
-* Voto
-* Câmara Municipal","* Estado
-* Constituição Federal
-* Voto","Pessoa que tem direitos civis e políticos garantidos pelo Estado. E que tem também deveres a cumprir.
-
-Os direitos políticos são regulados no Brasil pela Constituição Federal em seu artigo 14, que estabelece como princípio da participação na vida política nacional o sufrágio universal. Nos tempos da norma constitucional, o alistamento eleitoral e o voto são obrigatórios para os maiores de dezoito anos, e facultativos para os analfabetos, os maiores de dezesseis e menores de dezoito anos e os maiores de setenta anos.",imagem_0005
-,,,6,Congresso Nacional,"* Câmara dos Deputados
-* Poder Legislativo
-* Senado Federal
-* Sistema Bicameral","* Poder Legislativo
-* União
-* Câmara dos Deputados
-* Senado Federal
-* Sistema Bicameral","Órgão que representa o Poder Legislativo da União. É formado pela Câmara dos Deputados e pelo Senado Federal. 
-
-O Congresso Nacional usa o Sistema Bicameral e por isso possui duas casas legislativas.",imagem_0006
-,,,7,Constituição Federal,"* Cidadão
-* Estado
-* Leis
-* Lei Orgânica
-* Constituição Estadual
-* União
-* Supremo Tribunal Federal
-* Justiça Estadual","* Lei [Leis]
-* Estado
-* Cidadãos [Cidadão]","Constituição, também chamada de Carta Constitucional, é a lei fundamental e suprema de um Estado, onde contém as normas relativas à formação dos poderes públicos, forma de governo, distribuição das competências, direitos e deveres dos cidadãos etc.",imagem_0007
-,,,8,Constituição Estadual,"* Leis
-* Lei Orgânica [Município]
-* Assembléia Legislativa","* Lei [Leis]
-* Estados [Unidade Federativa]
-* Constituição Federal
-* Assembléia Legislativa
-* Governador","É a Lei Maior que rege um determinado estado-membro de um país. Nos estados do Brasil, seu poder é autônomo e atua segundo delimitação imposta pela Constituição Federal. O conteúdo da Constituição Estadual é elaborado pela Assembléia Legislativa e aprovado pelo Governador do estado respectivo.",imagem_0008
-,,,9,Democracia,"* Eleições
-* Partidos Políticos","* Votar [Voto]
-* Candidato
-* Eleições","Regime político que se caracteriza pela liberdade de votar no candidato que se tem vontade durante as eleições, pela divisão dos poderes e pelo controle e limite da autoridade.",imagem_0009
-,,,10,Deputado Estadual,* Assembléia Legislativa,* Assembléia Legislativa,Parlamentar que faz parte da Assembléia Legislativa. É um representante do povo eleito para mandato de quatro anos.,imagem_0010
-,,,11,Deputado Federal,* Câmara dos Deputados,* Câmara dos Deputados,Membro da Câmara dos Deputados e representante do povo. Tem mandato de quatro anos.,imagem_0011
-,,,12,Eleições,"* Candidato
-* Democracia
-* Justiça Eleitoral
-* Título de Eleitor
-* Urna
-* Voto","* Votação [Voto]
-* Cidadãos [Cidadão]
-* Candidatos [Candidato]
-* Democracia","Escolha feita por meio de votação. As eleições podem ser diretas, quando os cidadãos escolhem pessoalmente entre os candidatos; ou indiretas, quando representantes do povo votam em seu lugar.
-
-Processo fundamental da democracia.",imagem_0012
-,,,13,Estado,"* Cidadão
-* Constituição
-* Leis","* Leis
-* Constituição [Constituição Federal]
-* Governo [Governo Federal]","Nação organizada pela política e pelas leis, que ocupa um determinado território e é dirigida por um governo próprio.
-
-Estado não se confunde com governo. O Estado é organizado política, social e juridicamente, ocupando um território definido onde, normalmente, a lei máxima é uma constituição escrita. É dirigido por um governo que possui soberania reconhecida tanto interna como externamente.",imagem_0013
-,,,14,Unidade Federativa,"* Assembléia Legislativa
-* Câmara dos Deputados
-* Leis
-* Poder Executivo
-* Poder Legislativo
-* Senado Federal
-* Senador
-* Título de Eleitor
-* Constituição Estadual
-* União
-* Governo Estadual
-* Município
-* Separação dos Poderes
-* Justiça Estadual","* União
-* Governo Estadual","Unidade da Federação é o nome dado a cada um dos 26 estados brasileiros e ao Distrito Federal. 
-
-Em uma Federação, o território nacional se divide em Unidades da Federação que possuem alguma liberdade e independência e se ligam à União
-
-Cada estado possui o seu próprio governo, chamado de governo estadual.",imagem_0038
-,,,15,Governador,"* Constituição Estadual
-* Governo Estadual
-* Vice-Governador","* Governo Estadual
-* Vice-Governador","O governador é a autoridade máxima do governo estadual. O governador é eleito para um mandato de quatro anos, junto com um Vice-Governador.",imagem_0014
-,,,16,Governo Estadual,"* Estado [Unidade Federativa]
-* Governador
-* Poder Executivo","* Poder Executivo
-* Estado da Federação [Unidade Federativa]
-* Governador","O Governo de Estado é a sede do Poder Executivo de um Estado da Federação, comandado por um governador e dividido em secretarias de governo, como cultura ou saúde, por exemplo.",imagem_0015
-,,,17,Governo Federal,"* Governo Federal
-* Poder Executivo
-* Presidente da República
-* Título de Eleitor
-* União","* Poder Executivo
-* União
-* Presidente da República",O Governo Federal é o Poder Executivo no âmbito da União. No Brasil é sediado em Brasília (DF) e é o responsável pelos interesses da administração federal em todo território nacional. Tem como mandatário o Presidente da República.,imagem_0016
-,,,18,Justiça do Trabalho,"* Poder Judiciario
-* Justiça Estadual","* Poder Judiciário
-* União","A Justiça do Trabalho faz parte, como ramo especializado, do Poder Judiciário da União. É competente para julgar ações decorrentes da relação do trabalho e as de emprego regidas pela Consolidação das Leis Trabalhistas (CLT). Atua também em casos que envolvem representação sindical, atos decorrentes de greve e pedido de indenização por dano moral ou patrimonial resultantes da relação de trabalho, entre outros.",imagem_0017
-,,,19,Justiça Eleitoral,"* Candidato
-* Poder Judiciário
-* Título de Eleitor
-* Justiça Estadual","* Poder Judiciário
-* Eleições
-* Candidatos [Candidato]
-* Título de Eleitor",Parte do Poder Judiciário que regula e julga os atos praticados durante as eleições dos candidatos aos cargos públicos. É responsável pela emissão do Título de Eleitor.,imagem_0018
-,,,20,Justiça Estadual,* Poder Judiciário,"* Justiça Federal
-* Judiciário [Poder Judiciário]
-* do Trabalho [Justiça do Trabalho]
-* Eleitoral [Justiça Eleitoral]
-* Militar [Justiça Militar]
-* Constituição [Constituição Federal]
-* Estado [Unidade Federativa]","A Justiça Estadual, integrante da Justiça comum (junto com a Justiça Federal), é responsável por julgar matérias que não sejam da competência dos demais segmentos do Judiciário – Federal, do Trabalho, Eleitoral e Militar. 
-
-De acordo com a Constituição, cada estado tem a atribuição de organizar a sua Justiça Estadual. Hoje, ela está presente em todas as unidades da Federação, reunindo a maior parte dos casos que chega ao Judiciário, já que se encarrega das questões mais comuns e variadas, tanto na área civil quanto na criminal.",imagem_0019
-,,,21,Justiça Federal,"* Poder Judiciário
-* Justiça Estadual","* Poder Judiciário
-* União","Integrante do Poder Judiciário, a Justiça Federal brasileira tem por competência o julgamento de ações nas quais a União Federal, suas autarquias, fundações e empresas públicas federais figurem na condição de autoras ou rés e outras questões de interesse da Federação",imagem_0020
-,,,22,Justiça Militar,"* Poder Judiciario
-* Justiça Estadual",* Poder Judiciário,"A Justiça Militar é um ramo especializado do Poder Judiciário responsável pela aplicação da lei a uma categoria especial, a dos militares - Marinha, Exército, Aeronáutica, Polícias Militares e Corpos de Bombeiros Militares - julgando apenas e tão somente os crimes militares definidos em lei.",imagem_0021
-,,,23,Lei Orgânica,"* Leis
-* Câmara Municipal","* Município
-* Lei [Leis]
-* Câmara Municipal
-* Constituição Federal
-* Constituição Estadual","No âmbito de um município, a lei orgânica é uma lei ordinária aprovada em dois turnos pela Câmara Municipal, e pela maioria de dois terços de seus membros, que faz as vezes de lei fundamental daquele território.
-
-Deve sempre respeitar os princípios da Constituição Federal e da Constituição Estadual.
-
-Apesar de não ser um município, o Distrito Federal também possui uma Lei Orgânica.",imagem_0022
-,,,24,Leis,"* Constituição
-* Estado
-* Poder Executivo
-* Poder Judiciário
-* Poder Legislativo
-* Constituição Estadual
-* Separação de Poderes","* Três Poderes [Separação dos Poderes]
-* Constituição [Constituição Federal]
-* Constituição Estadual
-* Lei Orgânica
-* Estado [Unidade Federativa]
-* Município
-","Regra, norma que todos têm de cumprir. 
-
-No Brasil, cada um dos Três Poderes é responsável por criar, executar ou aplicar as leis.
-
-As principais leis de um país formam a sua Constituição. As principais leis de um estado formam a sua Constituição Estadual e as principais leis de um município formam a sua Lei Orgânica.",imagem_0023
-,,,25,Município,"* Leis
-* Poder Executivo
-* Poder Legislativo
-* Título de Eleitor
-* Lei Orgânica [Município]
-* União
-* Prefeitura
-* Prefeito
-* Vice-Prefeito
-* Separação dos Poderes
-* Câmara Municipal
-* Vereador","* Estado [Unidade Federativa]
-* Prefeitura
-* Câmara Municipal","O município é a divisão administrativa de um estado, distrito ou região, com autonomia administrativa, e que se constitui de certos órgãos políticos e administrativos. No caso do Brasil, o município é composto pela Prefeitura e pela Câmara Municipal.",imagem_0024
-,,,26,Partidos Políticos,* Candidato,"* Cidadãos [Cidadão]
-* Democracias [Democracia]
-* Candidatos [Candidato]","Grupo de cidadãos com idéias parecidas e com os mesmos objetivos políticos. Os partidos políticos são muito importantes para as democracias do mundo atual.
-
-No Brasil, todos os candidatos devem estar filiados a um partido político.",imagem_0025
-,,,27,Poder Executivo,"* Candidato
-* Governo Federal
-* Poder Legislativo
-* Governo Estadual
-* Prefeitura
-* Prefeito
-* Vice-Prefeito
-* Separação dos Poderes","* União
-* Leis
-* Governo Federal
-* Governo Estadual
-* Prefeitura
-* Estados [Unidade Federativa]
-* Municípios [Município]
-* Três Poderes [Separação dos Poderes]","Um dos Três Poderes. É o poder responsável por executar as leis. 
-
-No âmbito da União, o Poder Executivo é representado pelo Governo Federal. O Governo Estadual e a Prefeitura representam o Executivo nos estados e nos municípios, respectivamente.
-",imagem_0026
-,,,28,Poder Judiciário,"* Justiça Eleitoral
-* Separação dos Poderes
-* Supremo Tribunal Federal
-* Justiça Estadual
-* Justiça Federal
-* Justiça do Trabalho
-* Justiça Militar","* Leis
-* Federal [Justiça Federal]
-* Estadual [Justiça Estadual]
-* Militar [Justiça Militar]
-* Eleitoral [Justiça Eleitoral]
-* do Trabalho [Justiça do Trabalho]
-* STF [Supremo Tribunal Federal]
-* Três Poderes [Separação dos Poderes]","Um dos Três Poderes. É responsável por aplicar as leis que garantem os direitos individuais. Fazem parte do Poder Judiciário: os Tribunais de Justiça (Federal, Estadual, Militar, Eleitoral, do Trabalho) e os Tribunais Superiores que têm como órgão máximo o (STF) Supremo Tribunal Federal.",imagem_0027
-,,,29,Poder Legislativo,"* Assembléia Legislativa
-* Candidato
-* Congresso Nacional
-* Separação de Poderes
-* Sistema Bicameral
-* Câmara Municipal
-* Vereador","* Leis
-* Poder Executivo
-* União
-* Congresso Nacional
-* Estados [Unidade Federativa]
-* Assembléias Legislativas [Assembléia Legislativa]
-* Municípios [Município]
-* Câmaras Municipais [Câmara Municipal]
-* Três Poderes [Separação dos Poderes]","Um dos Três Poderes. É o poder que elabora as leis e que fiscaliza os atos do Poder Executivo. 
-
-O Poder Legislativo é representado na União pelo Congresso Nacional, nos estados pelas Assembléias Legislativas e nos municípios pelas Câmaras Municipais.",imagem_0028
-,,,30,Prefeito,"* Prefeitura
-* Vice-Prefeito","* Poder Executivo
-* Municipal [Município]
-* Prefeitura
-* Vice-Prefeito","O prefeito é um funcionário público do Poder Executivo municipal. Seu dever é ""administrar"" o município e chefiar a Prefeitura. É eleito para um mandato de quatro anos junto com um Vice-Prefeito.",
-,,,31,Prefeitura,"* Poder Executivo
-* Município
-* Prefeito","* Poder Executivo
-* Município
-* Prefeito","No Brasil, a prefeitura é a sede do Poder Executivo do município, comandada por um prefeito e dividida em secretarias de governo, como saúde ou educação, por exemplo.",imagem_0029
-,,,32,Presidente da República,"* Governo Federal
-* Vice-Presidente","* Governo Federal
-* Vice-Presidente","O presidente é a autoridade máxima do governo federal. O governador é eleito para um mandato de quatro anos, junto com um Vice-Presidente.",imagem_0030
-,,,33,Senado Federal,"* Congresso Nacional
-* Senador
-* Sistema Bicameral","* Congresso Nacional
-* Senadores [Senador]
-* Estados [Unidade Federativa]",Órgão do Congresso Nacional composto pelos senadores. O Senado representa os Estados e o Distrito Federal.,imagem_0031
-,,,34,Senador,* Senado Federal,"* Estados [Unidade Federativa]
-* Senado Federal",Cada um dos representantes dos Estados ou do Distrito Federal eleitos para o Senado Federal. Cada estado e o Distrito Federal elegem três senadores com mandato de oito anos.,imagem_0032
-,,,35,Separação dos Poderes,"* Leis
-* Poder Executivo
-* Poder Judiciário
-* Poder Legislativo","* Legislativo [Poder Legislativo]
-* Executivo [Poder Executivo]
-* Judiciário [Poder Judiciário]
-* Leis
-* União
-* Estado [Unidade Federativa]
-* Município","Trata-se dos poderes Legislativo, Executivo e Judiciário que norteiam as ações políticas do nosso país.
-
-Foi o filósofo francês Montesquieu quem tratou pela primeira vez da divisão dos três poderes: Executivo, encarregado de executar as leis e administrar o funcionamento da União, do estado ou do município, Legislativo, encarregado de fazer as leis e fiscalizar as ações do Executivo e Judiciário, encarregado de fazer com que as leis elaboradas pelo Legislativo sejam cumpridas, resolvendo os conflitos e garantindo os direitos individuais, coletivos e sociais.",imagem_0033
-,,,36,Sistema Bicameral,* Congresso Nacional,"* Poder Legislativo
-* Congresso Nacional
-* Câmara dos Deputados
-* Senado Federal","Sistema constitucional em que o Poder Legislativo é composto por duas câmaras ou casas legislativas. É o que acontece no caso do Congresso Nacional, que é integrado pela Câmara dos Deputados e pelo Senado Federal.",imagem_0034
-,,,37,Supremo Tribunal Federal,* Poder Judiciário,"* Poder Judiciário
-* Constituição Federal","O Supremo Tribunal Federal, ou STF, é a Suprema Corte brasileira, quer dizer, ele representa o topo da hierarquia do Poder Judiciário. Sua principal função é ser guardião da Constituição Federal.",imagem_0035
-,,,38,Título de Eleitor,"* Justiça Eleitoral
-* Voto","* Cidadão
-* Justiça Eleitoral
-* Votar [Voto]
-* Candidato
-* Eleições
-* Estaduais [Unidade Federativa]
-* Federais [Governo Federal] 
-* Municipais [Município]","É o documento que comprova que um determinado cidadão está cadastrado na Justiça Eleitoral. O título de eleitor, se estiver regularizado, permite a pessoa votar num candidato e se candidatar a um cargo, em eleições municipais, estaduais e federais.",imagem_0036
-,,,39,União,"* Congresso Nacional
-* Estado [Unidade Federativa]
-* Governo Federal
-* Poder Executivo
-* Poder Legislativo
-* Separação dos Poderes
-* Justiça Federal
-* Justiça do Trabalho","* Governo Federal
-* Constituição Federal
-* União
-* Estados [Unidade Federativa]
-* Municípios [Município]","União é a pessoa jurídica de Direito Público representante do Governo Federal no âmbito interno e da República Federativa do Brasil no âmbito externo. É definida no artigo 18 da Constituição Federal: ""Art. 18. A organização político-administrativa da República Federativa do Brasil compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos desta Constituição.""",imagem_0037
-,,,40,Urna,* Voto,"* Cidadão
-* Voto
-* Eleição [Eleições]","Local onde o cidadão registra seu voto em uma eleição. Pode ser manual (uma caixa onde o papelzinho com o voto é colocado) ou eletrônica. No Brasil, a urna eletrônica é utilizada há vinte anos.",imagem_0039
-,,,41,Vereador,* Câmara Municipal,"* Câmara Municipal
-* Poder Legislativo
-* Municipal [Município]","Representante do povo que faz parte da Câmara Municipal, órgão do Poder Legislativo municipal. O vereador é eleito para um mandato de quatro anos.",imagem_0040
-,,,42,Vice-Governador,* Governador,* Governador,"O Vice-Governador é a pessoa encarregada de substituir o governador caso este renuncie a sua posição, seja afastado do poder ou precise afastar-se do cargo temporariamente.",imagem_0041
-,,,43,Vice-Prefeito,* Prefeito,"* Poder Executivo
-* Municipal [Município]
-* Prefeito
-* Voto","Vice-Prefeito é o segundo em exercício no cargo do Poder Executivo municipal. No Brasil, esse representante é eleito através de voto direto, de quatro em quatro anos, juntamente com o prefeito, de modo vinculado. O Vice-Prefeito é o substituto do prefeito em caso de ausência por licença ou outro impedimento. ",imagem_0042
-,,,44,Vice-Presidente,* Presidente da República,* Presidente [Presidente da República],"O Vice-Presidente tem a função de substituir o Presidente no caso de viagem ao exterior ou impedimentos e sucedê-lo em caso de renúncia, morte ou destituição do cargo por processo de impeachment. Ele deve também dar conselhos ao Presidente, caso seja requisitado.",imagem_0043
-,,,45,Voto,"* Candidato
-* Cidadão
-* Democracia
-* Eleições
-* Título de Eleitor
-* Urna
-* Vice-Prefeito","* Candidato
-* Eleição [Eleições]
-* Urnas [Urna]
-* Cidadão
-* Título de Eleitor","Manifestação oficial que declara a preferência de um eleitor em um candidato durante uma eleição. No Brasil, os votos de uma eleição são registrados em urnas eletrônicas.
-
-No Brasil, o cidadão precisa ser maior de 16 anos e ter seu Título de Eleitor regularizado para poder votar",imagem_0044
+,,Links funcionam?,Número,Termo,In,Out,Texto,Imagem,Imagem-link
+,,Link para independência não funciona,1,Maria Quitéria,,"* Heroína da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]
+* Independência do Brasil
+* Primeira mulher brasileira [Brasileiras pioneiras]
+",Maria Quitéria é considerada Heroína da Pátria por sua luta em apoio à Independência do Brasil. Ela foi a primeira mulher brasileira a integrar uma unidade militar.,imagem_0001,https://plenarinho.leg.br/index.php/2018/01/maria-quiteria/
+,,ok,2,Livro de Aço dos Heróis e Heroínas da Pátria,"* Maria Quitéria
+* Dandara
+* Zumbi
+* Sepé Tiaraju
+* Bárbara de Alencar
+* D. Pedro I
+* José Bonifácio
+* Luiz Gama
+* Luiza Mahin
+* Clara Camarão
+* Ajuricaba
+* Marechal Rondon
+* Tiradentes
+* Ruy Barbosa
+* Machado de Assis","* Zumbi
+* Dandara
+* Sepé Tiaraju
+* Bárbara de Alencar","Em Brasília, no Panteão da Pátria e da Liberdade, há um Livro de Aço onde são inscritos os nomes de brasileiros e brasileiras que se destacaram na defesa da liberdade e da democracia no Brasil. São exemplos disso Zumbi e Dandara dos Palmares, Sepé Tiaraju e Bárbara de Alencar.",imagem_0002,"https://plenarinho.leg.br/index.php/2020/04/conheca-brasilia-com-o-plenarinho/
+(Panteão da Pátria?)"
+,,Link para D. Pedro I não funciona,3,Independência do Brasil ,"* Maria Quitéria
+* Bárbara de Alencar
+* D. Pedro I
+* Maria Leopoldina
+* José Bonifácio
+* D. João IV
+* Tiradentes","* Dom Pedro I [D. Pedro I]
+* Maria Leopoldina
+* José Bonifácio","7 de setembro de 1822 ficou conhecido como o Dia da Independência do Brasil, declarada por Dom Pedro I. Na verdade, sabe-se que o decreto que tornou o Brasil independente de Portugal foi assinado 5 dias antes pela princesa Maria Leopoldina, em companhia de José Bonifácio.",imagem_0003,https://plenarinho.leg.br/index.php/2018/08/dia-da-patria/
+,,ok,4,Brasileiras pioneiras,"* Bárbara de Alencar
+* Antonieta de Barros
+* Carlota Pereira de Queiroz
+* Bertha Lutz
+* Nísia Floresta
+* Ivette Vargas
+* Mietta Santiago","* Antonieta de Barros
+* Carlota de Queiroz [Carlota Pereira de Queiroz]
+* Bertha Lutz
+* Nísia Floresta","A História do Brasil por muito tempo ignorou a presença feminina. Mas felizmente, isso está mudando: hoje já conhecemos nomes como Antonieta de Barros, Carlota de Queiroz, Bertha Lutz e Nísia Floresta.",imagem_0004,https://plenarinho.leg.br/index.php/descubra/brasil/pessoas-importantes/brasileiras-que-fizeram-historia/
+,,ok,5,Zumbi,"* Heróis e Heroínas da Pátria
+* Dandara
+* Aqualtune
+* Quilombos
+","* Dandara
+* Luta pela libertação dos negros escravizados [Abolicionismo]
+* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]
+* Aqualtune
+* Quilombo dos Palmares [Quilombos]","Herói da Pátria por sua luta pela libertação dos negros escravizados, Zumbi era líder do Quilombo dos Palmares. Ao lado de Dandara, ele resistiu durante anos às tentativas de destruição do Quilombo pelo exército português. Era neto de Aqualtune.",imagem_0005,https://plenarinho.leg.br/index.php/2019/11/zumbi-dos-palmares/
+,,ok,6,Dandara,"* Heróis e Heroínas da Pátria
+* Zumbi
+* Quilombos
+","* Zumbi
+* Quilombo dos Palmares [Quilombos]
+* Heroína da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]
+* Luta pela libertação dos negros escravizados [Abolicionismo]","Ao lado do marido, Zumbi, Dandara comandou o Quilombo dos Palmares durante anos - muitos deles, sob intenso ataque do exército português. É uma Heroína da Pátria por sua luta pela libertação do povo negro escravizado. ",imagem_0006,https://plenarinho.leg.br/index.php/2019/11/dandara-dos-palmares/
+,,ok,7,Sepé Tiaraju,"* Indígena
+* Herói da Pátria","* Indígena [Indígenas]
+* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","Líder indígena guarani, morreu lutando ao lado de seu povo em defesa da região de Sete Povos das Missões, no Rio Grande do Sul. É um Herói da Pátria por ter defendido aquele pedaço do Brasil, que estava sob ataque do exército espanhol. ",imagem_0007,https://plenarinho.leg.br/index.php/2018/04/sepe-tiaraju/
+,,Link para independência não funciona,8,Bárbara de Alencar,* Heróis e Heroínas da Pátria,"* Primeira mulher brasileira [Brasileiras pioneiras]
+* Independência do Brasil
+* Heroína da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","A matriarca da família Alencar entrou para a história por ter sido a primeira mulher brasileira a ser presa por motivos políticos. Por ter sido uma defensora corajosa da Independência do Brasil, ela é considerada uma Heroína da Pátria. ",imagem_0008,https://plenarinho.leg.br/index.php/2021/06/barbara-de-alencar-primeira-presa-politica-brasil/
+,,ok,9,D. Pedro I ,"* Independência do Brasil
+* Maria Leopoldina
+* José Bonifácio
+* D. João VI
+* D. Pedro II","* D. João VI
+* Independência do Brasil
+* Maria Leopoldina
+* José Bonifácio
+* D. Pedro II
+* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","Filho de D. João VI, tornou-se príncipe regente do Brasil quando seu pai voltou à terra natal para assumir a coroa portuguesa em 1818. Entrou para a História como o grande nome da Independência do Brasil, mas não esteve sozinho: contou com o apoio da esposa, Maria Leopoldina, e de José Bonifácio, seu conselheiro. É o pai de D. Pedro II, e considerado um Herói da Pátria.",imagem_0009,https://plenarinho.leg.br/index.php/2017/08/d-pedro-i/
+,,Só o link para José Bonifácio funciona,10,Maria Leopoldina,"* Independência do Brasil
+* D. Pedro I
+* José Bonifácio
+* D. Pedro II","* Brasil independente [Independência do Brasil]
+* D. Pedro I
+* José Bonifácio
+* D. Pedro II","Foi quem assinou o decreto que tornou o Brasil independente, em 2 de setembro de 1822, enquanto o marido, D. Pedro I, viajava em busca de apoio à causa da Independência. Era muito amiga de José Bonifácio, com quem compartilhava o interesse por política, artes e ciências. É mãe de D. Pedro II.",imagem_0010,https://plenarinho.leg.br/index.php/2019/09/maria-leopoldina-imperatriz-brasil/
+,,Só os links para Maria Leopoldina e Herói da Pátria funcionam,11,José Bonifácio,"* Heróis e Heroínas da Pátria
+* Independência do Brasil
+* D. Pedro I
+* Maria Leopoldina
+* D. Pedro II","* Independência do Brasil
+* Maria Leopoldina
+* D. Pedro I
+* D. Pedro II
+* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","Antes de ingressar no mundo da política, o Patriarca da Independência do Brasil foi um cientista muito talentoso. O gosto pela ciência, aliás, foi um dos motivos de afinidade entre ele e a princesa Maria Leopoldina. Além de conselheiro de D. Pedro I, foi tutor de seu filho, D. Pedro II. É considerado um Herói da Pátria.",imagem_0011,https://plenarinho.leg.br/index.php/2019/07/jose-bonifacio-um-homem-da-politica-e-das-ciencias/
+,,ok,12,Antonieta de Barros,* Brasileiras pioneiras,"* Primeira mulher [Brasileiras pioneiras]
+* Movimento sufragista","Ela foi a primeira mulher negra a vencer uma eleição em todo o Brasil. Isso aconteceu em 1934, dois anos depois de o voto feminino se tornar realidade no Brasil, após muita luta do movimento sufragista. Antonieta tornou-se deputada estadual pelo estado de Santa Catarina.",imagem_0012,https://plenarinho.leg.br/index.php/2020/10/antonieta-de-barros/
+,,ok,13,Carlota Pereira de Queiroz,"* Brasileiras pioneiras
+* Ivette Vargas","* Primeira mulher [Brasileiras pioneiras]
+* Movimento sufragista","Carlota fez história no Brasil porque foi a primeira mulher a ser eleita deputada federal, em 1933. Um ano antes, o movimento sufragista comemorava a conquista do voto feminino no nosso país.",imagem_0013,https://plenarinho.leg.br/index.php/2017/02/carlota-pereira-de-queiroz/
+,,ok,14,Bertha Lutz,"* Brasileiras pioneiras
+* Movimento sufragista","* Segunda mulher no Brasil [Brasileiras pioneiras]
+* Movimento sufragista",A bióloga foi uma grande defensora das mulheres na Câmara dos Deputados. Participou ativamente do movimento sufragista e foi a segunda mulher no Brasil a assumir um cargo público após aprovação em concurso.,imagem_0014,https://plenarinho.leg.br/index.php/2019/03/bertha-lutz/
+,,ok,15,Nísia Floresta,* Brasileiras pioneiras,"* Primeira brasileira [Brasileiras pioneiras]
+* Indígenas
+* Abolição da Escravidão [Abolicionismo]
+* República [Republicanismo]","Nísia é considerada a primeira brasileira a se manifestar pela emancipação das mulheres. Ela escreveu o livro “Direitos das mulheres e injustiça dos homens”, de 1832, que trata da realidade da mulher brasileira. Ela lutava pelo direito das mulheres à educação, mas também ergueu sua voz a favor dos indígenas, da Abolição da Escravidão e da República.",imagem_0015,https://plenarinho.leg.br/index.php/2018/02/nisia-floresta-uma-mulher-alem-de-seu-tempo/
+,,ok,16,Abolicionismo,"* Zumbi
+* Dandara
+* Nísia Floresta
+* D. Pedro II
+* José do Patrocínio 
+* André Rebouças
+* Luiz Gama
+* Luiza Mahin
+* Joaquim Nabuco
+* Ruy Barbosa
+* Princesa Isabel","* André Rebouças
+* José do Patrocínio
+* Joaquim Nabuco
+* Luiz Gama","É um movimento político que tem como objetivo o fim da escravização de pessoas. No Brasil, o último país do planeta a libertar a população negra escravizada, o abolicionismo ganhou força graças a nomes como André Rebouças, José do Patrocínio, Joaquim Nabuco, Luiz Gama e muitos outros.",imagem_0016,https://plenarinho.leg.br/index.php/2019/11/protagonismo-negro-na-luta-pela-abolicao/
+,,ok,17,Aqualtune,* Zumbi,"* Quilombo dos Palmares [Quilombos]
+* Zumbi","Princesa congolesa que, após ser derrotada em uma batalha, foi capturada e vendida como escrava no Brasil. Não demorou a fugir para o Quilombo dos Palmares, onde rapidamente se tornou uma liderança. É avó do grande guerreiro negro Zumbi.",imagem_0017,https://plenarinho.leg.br/index.php/2021/05/aqualtune-princesa-guerreira/
+,,ok,18,Quilombos,"* Zumbi
+* Aqualtune
+* Tereza de Benguela
+* Dandara","* Zumbi
+* Tereza de Benguela","Quilombos eram locais de refúgio de africanos escravizados e de seus descendentes. Essas comunidades ficavam escondidas na mata e se defendiam de ataques do exército português e de bandeirantes, que tentavam recapturar os fugitivos. Vários quilombos ficaram famosos, como Palmares, comandado por Zumbi, e o Quariterê, liderado por Tereza de Benguela.",imagem_0044,https://www.colegioweb.com.br/wp-content/uploads/2013/12/quilombo.jpg
+,,ok,19,Indígenas,"* Sepé Tiaraju
+* Nísia Floresta
+* Clara Camarão
+* Ajuricaba
+* Marechal Rondon","* Sepé Tiaraju
+* Clara Camarão
+* Ajuricaba
+* Marechal Rondon","Os povos indígenas chegaram no Brasil pelo menos 11 mil anos antes dos primeiros navegadores portugueses. Apesar de sempre terem estado aqui, foram ocultados da nossa História. Felizmente, isso está mudando - aos poucos, temos conhecido mais personagens históricos de origem indígena, como Sepé Tiaraju, Clara Camarão, Ajuricaba e até o Marechal Rondon. ",imagem_0018,https://plenarinho.leg.br/index.php/os-povos-indigenas/
+,,Nenhum link funciona,20,D. João VI,* D. Pedro I,"* D. Pedro I
+* Independência do Brasil","Príncipe regente, chegou ao Brasil com a Família Real portuguesa em 1808, fugindo dos exércitos de Napoleão Bonaparte. Pai de D. Pedro I, criou as condições para a Independência do Brasil, ao promover o desenvolvimento econômico, cultural, científico e político da colônia. ",imagem_0019,https://plenarinho.leg.br/index.php/2018/02/d-joao-vi-e-independencia-brasil/
+,,Link para D. Pedro I não funciona,21,D. Pedro II,"* D. Pedro I
+* Maria Leopoldina
+* José Bonifácio
+* Republicanismo
+* André Rebouças
+* Princesa Isabel","* D. Pedro I
+* Maria Leopoldina
+* Republicanos [Republicanismo]
+* Abolicionistas [Abolicionismo]
+* Princesa Isabel","Filho de D. Pedro I e Maria Leopoldina, tornou-se imperador do Brasil aos cinco anos, quando o pai abdicou do trono e voltou para Portugal. Foi efetivamente coroado aos 15 anos. Patrono das artes e das ciências, governou até 1889, quando foi destituído após a golpe que levou os republicanos ao poder. Durante o período em que governou, aprovou várias leis abolicionistas - com exceção da Lei Áurea, assinada pela filha mais velha, a Princesa Isabel.",imagem_0042,http://plenarinho.leg.br/wp-content/uploads/2017/03/Dom-Pedro-II.jpg
+,,Link para Mietta não funciona,22,Movimento sufragista,"* Antonieta de Barros 
+* Carlota Pereira de Queiroz
+* Bertha Lutz
+* Leolinda Daltro
+* Almerinda Farias Gama
+* Mietta Santiago","* Leolinda Daltro
+* Bertha Lutz
+* Almerinda Farias Gama
+* Mietta Santiago","Sufrágio é o direito de votar. Assim, o movimento conhecido como sufragista é o que lutava pelo direito de mulheres votarem e serem votadas. No Brasil, algumas sufragistas ficaram muito conhecidas, como Mietta Santiago, Leolinda Daltro, Bertha Lutz e Almerinda Farias Gama, entre outras.",imagem_0041,http://plenarinho.leg.br/wp-content/uploads/2017/02/voto-feminino.jpg
+,,ok,23,Republicanismo,"* Nísia Floresta
+* D. Pedro II
+* José do Patrocínio
+* Ruy Barbosa","* Marechal Deodoro da Fonseca
+* D. Pedro II","Príncipe regente, chegou ao Brasil com a Família Real portuguesa em 1808, fugindo dos exércitos de Napoleão Bonaparte. Pai de D. Pedro I, criou as condições para a Independência do Brasil, ao promover o desenvolvimento econômico, cultural, científico e político da colônia. ",imagem_0040,http://plenarinho.leg.br/wp-content/uploads/2018/05/Destaque_Presidencia.png
+,,ok,24,José do Patrocínio,"* Abolicionismo
+* Joaquim Nabuco
+* Academia Brasileira de Letras
+* Princesa Isabel","* Abolição [Abolicionismo]
+* Academia Brasileira de Letras
+* Princesa Isabel
+* Movimento Republicano [Republicanismo]","Jornalista, filho de uma africana escravizada, o ""Tigre da Abolição"" ficou famosos por seus textos inflamados a favor do fim da escravidão no Brasil. Foi membro da Academia Brasileira de Letras. Grande admirador da Princesa Isabel, foi contra o Movimento Republicano.",imagem_0020,https://plenarinho.leg.br/index.php/2021/04/jose-patrocinio-um-homem-chamado-revolucao/
+,,ok,25,André Rebouças,"* Abolicionismo
+* Joaquim Nabuco
+* Princesa Isabel","* Abolicionismo
+* D. Pedro II
+* Princesa Isabel","Engenheiro talentoso e um dos principais nomes do Abolicionismo no Brasil. Era amigo pessoal de D. Pedro II e da Princesa Isabel, seguindo com eles para o exílio na Europa após a proclamação da República.",imagem_0021,https://plenarinho.leg.br/index.php/2021/05/andre-reboucas-um-abolicionista-frente-de-seu-tempo/
+,,ok,26,Luiz Gama,"* Abolicionismo
+* Luiza Mahin","* Abolicionista [Abolicionismo]
+* Luíza Mahin
+* Herói Nacional [Livro de Aço dos Heróis e Heroínas da Pátria]
+* Ruy Barbosa","Abolicionista, advogado autodidata, conseguiu na Justiça a libertação de mais de 500 negros escravizados. É filho da africana Luíza Mahin, trazida ao Brasil para ser escravizada, mas já liberta quando ele nasceu. É um Herói Nacional, assim como o amigo Ruy Barbosa.",imagem_0022,https://plenarinho.leg.br/index.php/2019/11/luiza-mahin-e-luiz-gama-mae-e-filho-na-luta-contra-escravidao/
+,,ok,27,Luíza Mahin,* Luiz Gama,"* Abolicionismo [Abolicionistas]
+* Luiz Gama
+* Heroína da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","Luíza se destacou na luta pela libertação dos negros escravizados no Brasil. Participou da organização de diversos levantes abolicionistas na Bahia. Como o filho, Luiz Gama, é Heroína da Pátria.",imagem_0023,https://plenarinho.leg.br/index.php/2019/11/luiza-mahin-e-luiz-gama-mae-e-filho-na-luta-contra-escravidao/
+,,ok,28,Joaquim Nabuco,"* Abolicionismo
+* Academia Brasileira de Letras
+* Machado de Assis","* Abolicionismo
+* André Rebouças
+* José do Patrocínio
+* Academia Brasileira de Letras
+* Machado de Assis","O político, jornalista e historiador foi um dos principais líderes do Abolicionismo no Brasil, ao lado de nomes como André Rebouças e José do Patrocínio. É um dos fundadores da Academia Brasileira de Letras e amigo pessoal de Machado de Assis.",imagem_0024,https://plenarinho.leg.br/index.php/2017/03/joaquim-nabuco/
+,,Link para Ruy Barbosa não funciona,29,Academia Brasileira de Letras,"* Joaquim Nabuco
+* José do Patrocínio
+* Machado de Assis
+* Ruy Barbosa","* Joaquim Nabuco
+* José do Patrocínio
+* Ruy Barbosa
+* Machado de Assis","Instituição cultural inaugurada em 20 de julho de 1897 e sediada no Rio de Janeiro, cujo objetivo é o cultivo da língua e da literatura nacional. Vários de seus fundadores e membros foram importantes personagens históricos brasileiros, tais como Joaquim Nabuco, José do Patrocínio, Ruy Barbosa e Machado de Assis.",imagem_0043,https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ABL_logo.svg/1200px-ABL_logo.svg.png
+,,ok,30,Clara Camarão,"* Indígenas
+* Heroína da Pátria","* Indígena [Indígenas]
+* Heroína da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","Indígena da nação potiguar, ela liderou uma tropa feminina que lutou contra as invasões holandesas em meados do século XVII. Por sua bravura em defesa do Brasil, é considerada Heroína da Pátria.",imagem_0025,https://plenarinho.leg.br/index.php/2021/04/primeira-heroina-indigena-brasil/
+,,ok,31,Ajuricaba,"* Indígena [Indígenas]
+* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","* Indígena [Indígenas]
+* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","Cacique dos Manaós, Ajuricaba foi um guerreiro lendário, que jamais aceitou a escravização de seu povo. Até hoje seu nome é simbolo de força, coragem e de luta pela liberdade na região amazônica. O líder indígena é cotado para ser inscrito entre os Heróis da Pátria. ",imagem_0026,https://plenarinho.leg.br/index.php/2021/04/ajuricaba-o-guerreiro-da-liberdade/
+,,Faltou o link para Heróis da Pátria,32,Marechal Rondon,* Indígenas,"* Indígenas
+* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","O engenheiro e sertanista Cândido Rondon interligou o interior do Brasil às grandes cidades por meio das linhas de telégrafo. Enquanto desbravava os sertões do País, travou contato com diversos povos indígenas, tornando-se um grande defensor do direito deles à terra e à manutenção de seu modo de vida. Seu nome está inscrito entre os Heróis da Pátria.",imagem_0027,https://plenarinho.leg.br/index.php/2021/04/marechal-rondon/
+,,,33,Ivette Vargas,,"* Segunda mulher [Brasileiras pioneiras]
+* Carlota Pereira de Queiroz","Em 1950, Cândida Ivette Vargas Martins foi a segunda mulher eleita deputada federal no Brasil. A primeira mulher foi Carlota Pereira de Queiroz, em 1933.",imagem_0028,https://plenarinho.leg.br/index.php/2019/03/ivette-vargas/
+,,ok,34,Leolinda Daltro,* Movimento sufragista,"* Indígenas
+* Movimento sufragista","A professora Leolinda Daltro tinha ideias muito à frente de seu tempo. Há mais de um século, ela se tornou conhecida por defender os povos indígenas e integrar o movimento sufragista.",imagem_0029,https://plenarinho.leg.br/index.php/2018/02/leolinda-daltro/
+,,ok,35,Tereza de Benguela,* Quilombo,* Quilombo [Quilombos],"Tereza comandou o Quilombo do Quariterê com mão de ferro - era chamada de Rainha por sua comunidade. Sob sua liderança, o Quariretê se tornou economicamente próspero e muito bem armado. Em sua homenagem, o dia 25/07 é conhecido como Dia Nacional de Tereza de Benguela e da Mulher Negra.",imagem_0030,https://plenarinho.leg.br/index.php/2020/07/tereza-de-benguela/
+,,Link para independência não funciona,36,Tiradentes,* Carlos Drummond de Andrade,"* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]
+* Independência do Brasil","Primeiro brasileiro a ser inscrito como Herói da Pátria, Joaquim José da Silva Xavier foi um dos líderes da Inconfidência Mineira, movimento que lutava pela Independência do Brasil de Portugal.",imagem_0031,https://plenarinho.leg.br/index.php/2019/04/joaquim-jose-da-silva-xavier-o-heroi-da-liberdade/
+,,ok,37,Almerinda Farias Gama,* Movimento sufragista,"* Movimento sufragista
+* Única mulher [Brasileiras pioneiras]","Advogada e jornalista, sempre lutou pelos direitos das mulheres. Participou ativamente do movimento sufragista e foi a única mulher a votar como delegada classista na Assembleia Constituinte de 1933. Chegou a se candidatar a deputada federal em 1934, mas não foi eleita.",imagem_0032,https://plenarinho.leg.br/index.php/2020/10/almerinda-farias-gama/
+,,ok,38, Mietta Santiago,* Movimento sufragista,"* Movimento sufragista
+* Primeira mulher [Brasileiras pioneiras]
+* Carlos Drummond de Andrade","É um dos grandes nomes do movimento sufragista no Brasil. Aos 25 anos, a advogada entrou na justiça para que pudesse votar em si mesma para um mandato de deputada federal. Não se elegeu, mas tornou-se a primeira mulher a votar e ser votada no Brasil. Foi inspiração para um poema de Carlos Drummond de Andrade.",imagem_0033,https://plenarinho.leg.br/index.php/2018/03/mietta-santiago/
+,,ok,39,Ruy Barbosa,"* Luiz Gama
+* Marechal Deodoro da Fonseca","* Abolicionista [Abolicionismo]
+* Republicano [Republicanismo]
+* Academia Brasileira de Letras
+* Herói da Pátria [Livro de Aço dos Heróis e Heroínas da Pátria]","Advogado, jornalista, político e escritor, ele ficou conhecido como Águia de Haia. Era abolicionista, republicano e foi um dos fundadores da Academia Brasileira de Letras. Por seu importante papel no fortalecimento da República, tornou-se Herói da Pátria.",imagem_0034,https://plenarinho.leg.br/index.php/2017/03/ruy-barbosa/
+,,ok,40,Machado de Assis,"* Academia Brasileira de Letras 
+* Joaquim Nabuco","* Academia Brasileira de Letras
+* Joaquim Nabuco
+* Herói Nacional [Livro de Aço dos Heróis e Heroínas da Pátria]","Um dos maiores nomes da Literatura Brasileira. Foi jornalista, escritor e um dos fundadores da Academia Brasileira de Letras. Era amigo pessoal de Joaquim Nabuco e, como ele, tornou-se um Herói Nacional por sua imensa contribuição à cultural nacional.",imagem_0035,https://plenarinho.leg.br/index.php/2019/11/machado-de-assis/
+,,ok,41,Princesa Isabel,"* José do Patrocínio
+* André Rebouças
+* D. Pedro II","* D. Pedro II
+* Abolicionistas [Abolicionismo]
+* José do Patrocínio
+* André Rebouças","Isabel é a filha mais velha de D. Pedro II. Entrou para a História do Brasil por ter assinado a Lei Áurea, como princesa regente, durante uma viagem de seu pai. Entre seus admiradores, estavam os abolicionistas José do Patrocínio e o amigo André Rebouças.",imagem_0039,http://plenarinho.leg.br/wp-content/uploads/2017/02/Princesa-Isabel.jpg 
+,,ok,42,Carlos Drummond de Andrade,"* Cora Coralina
+* Mietta Santiago","* Tiradentes
+* Cora Coralina","Mineiro como Tiradentes, o famoso poeta era um grande admirador da escritora Cora Coralina, com quem se correspondeu várias vezes.",imagem_0036,https://plenarinho.leg.br/index.php/2018/08/e-agora-drummond/
+,,ok,43,Cora Coralina,* Carlos Drummond de Andrade,* Carlos Drummond de Andrade,"A doceira goiana encantou o Brasil com seus poemas. Entre os seus admiradores, estavam escritores como Carlos Drummond de Andrade.",imagem_0037,https://plenarinho.leg.br/index.php/2021/05/doce-cora-coralina/
+,,"ok - mas sempre que é o termo que inicia o jogo, fica sem termo de ""chegada""",44,Marechal Deodoro da Fonseca,* Republicanismo,"* República [Republicanismo]
+* Ruy Barbosa","Foi quem proclamou que o Brasil era República, em 15 de novembro de 1889, e se tornou o seu primeiro presidente, eleito indiretamente. Nomeou Ruy Barbosa seu Ministro da Fazenda.",imagem_0038,https://plenarinho.leg.br/index.php/2018/11/marechal-deodoro-da-fonseca/
+,,,45,,,,,,

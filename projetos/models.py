@@ -7,10 +7,8 @@ class Projeto(models.Model):
     nomeDaCrianca       = models.TextField()
     sexo                = models.TextField()
     dataDeNascimento    = models.TextField()
-    endereco            = models.TextField()
     cidade              = models.TextField()
     uf                  = models.TextField()
-    cep                 = models.TextField()
     telefone            = models.TextField()
     email               = models.TextField()
     escola              = models.TextField()
@@ -22,6 +20,9 @@ class Projeto(models.Model):
     justificativa       = models.TextField()
     ano                 = models.TextField()
     link                = models.TextField()
+    como_chegou         = models.TextField(null=True)
+    responsavel         = models.TextField(null=True)
+    parentesco          = models.TextField(null=True)
     
     def __str__(self):
         return self.name

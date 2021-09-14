@@ -29,10 +29,8 @@ def extractProjetoData(projeto):
     projeto.nomeDaCrianca       = infoBox.find('nome').string
     projeto.sexo                = infoBox.find('sexo').string
     projeto.dataDeNascimento    = infoBox.find('datadenascimento').string
-    projeto.endereco            = infoBox.find('endereco').string
     projeto.cidade              = infoBox.find('cidade').string
     projeto.uf                  = infoBox.find('uf').string
-    projeto.cep                 = infoBox.find('cep').string
     projeto.telefone            = infoBox.find('telefone').string
     projeto.email               = infoBox.find('email').string
     projeto.escola              = infoBox.find('escola').string
@@ -43,6 +41,9 @@ def extractProjetoData(projeto):
     projeto.projetoDeLei        = infoBox.find('projetodelei').string
     projeto.justificativa       = infoBox.find('justificativa').string
     projeto.ano                 = infoBox.find('ano').string
+    projeto.como_chegou         = infoBox.find('como_chegou').string
+    projeto.responsavel         = infoBox.find('nome_do_responsavel').string
+    projeto.parentesco          = infoBox.find('parentesco').string
     try:
         projeto.save()
         print("finished "+projeto.name)
@@ -70,7 +71,10 @@ def get_projeto(projeto, depth=1):
 def getLinks():
     
     #url = 'https://plenarinho.leg.br/index.php/listar-todos-os-projetos-de-lei-publicados/?vpage='
-    url = 'https://plenarinho.leg.br/index.php/category/camara-mirim-2020/page/'
+    #url = 'https://plenarinho.leg.br/index.php/category/camara-mirim-2020/page/'
+    url = 'https://plenarinho.leg.br/index.php/category/projetos-2021-camara-mirim/page/'
+    NUMBER_OF_LINK_PAGES = 5
+    
     '''
     result = Projeto.objects.filter(link__contains='/')
     
@@ -78,7 +82,7 @@ def getLinks():
         return;
     '''
     list_of_links = []
-    for x in range(1,7+1):
+    for x in range(1,NUMBER_OF_LINK_PAGES+1):
         urls = getLinkAdressFromPage(url+str(x))
         list_of_links += urls
         print('added all projects from page ', url+str(x))

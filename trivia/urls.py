@@ -1,6 +1,7 @@
 from django.conf.urls import url, include
 from . import views
 from trivia.models import *
+from trivia.resources import start_export
 from rest_framework import serializers, viewsets, routers
 
         
@@ -49,5 +50,6 @@ router.register(r'trivias', TriviaViewSet)
 
 urlpatterns = [
     url(r'^', include(router.urls)),
+    url(r'^import', start_export),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
